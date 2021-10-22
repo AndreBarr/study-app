@@ -1,0 +1,7 @@
+{
+  "name": "ely-study",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
