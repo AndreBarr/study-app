@@ -19,8 +19,8 @@ export class ExploreContainerComponent implements OnInit {
 
   correctQuestions = new Set<Question>();
   doneQuestions = new Set<number>();
-  grade: number = 100;
   qAndA: Array<Question>;
+  grade: number = 100;
 
   constructor(public alertController: AlertController) {}
 
