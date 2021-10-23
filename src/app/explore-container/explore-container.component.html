@@ -12,7 +12,7 @@
           </ion-list-header>
 
           <ion-item *ngFor="let choice of currentQuestion.choices | keyvalue">
-            <ion-label>{{ choice.value }}</ion-label>
+            <ion-label text-wrap>{{ choice.value }}</ion-label>
             <ion-radio slot="start" value="{{ choice.key }}"></ion-radio>
           </ion-item>
         </ion-radio-group>
