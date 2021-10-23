@@ -1,4 +1,51 @@
 <div id="container">
-  <strong>{{ name }}</strong>
-  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ currentQuestion.question }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-radio-group value="a">
+          <ion-list-header>
+            <ion-label>{{ doneQuestions.size }} / {{ qAndA.length }}</ion-label>
+          </ion-list-header>
+
+          <ion-item *ngFor="let choice of currentQuestion.choices | keyvalue">
+            <ion-label>{{ choice.value }}</ion-label>
+            <ion-radio slot="start" value="{{ choice.key }}"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <ion-list-header>
+    <ion-label *ngIf="practice">{{ grade }}%</ion-label>
+  </ion-list-header>
+  <ion-progress-bar
+    *ngIf="practice"
+    id="grade"
+    value="{{ grade / 100 }}"
+  ></ion-progress-bar>
+  <br />
+  <ion-button id="toggle-mode" color="secondary" (click)="toggleMode()">{{
+    practice ? "Toggle Exam Mode" : "Toggle Practice Mode"
+  }}</ion-button>
+
+  <ion-button
+    *ngIf="practice"
+    id="check"
+    color="success"
+    (click)="checkAnswerPractice()"
+    >Check</ion-button
+  >
+
+  <ion-button *ngIf="!practice" id="next" (click)="nextQuestion()"
+    >Next</ion-button
+  >
+  <ion-button id="restart" color="danger" (click)="restartQuestions()"
+    >Restart</ion-button
+  >
+
+  <ion-alert-controller></ion-alert-controller>
 </div>
