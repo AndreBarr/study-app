@@ -1,4 +1,4 @@
-export const qAndA = [
+export const Unit1 = [
   {
     question:
       'Which drug will go through a disintegration process after it is administered? ',
@@ -1128,6 +1128,1256 @@ export const qAndA = [
     },
     answer: {
       d: 'Children should bring medications properly labeled to school and should not self administer medications without supervision.',
+    },
+  },
+];
+
+export const Unit2 = [
+  {
+    question:
+      'A patient describes having vivid dreams to the nurse. The nurse understands that these occur during which stage of sleep',
+    choices: {
+      a: 'Rapid eye movement (REM) sleep',
+      b: 'Stage 2 non rapid eye movement sleep',
+      c: 'Stage 3 non rapid eye movement sleep',
+      d: 'Stage 4 non rapid eye movement sleep',
+    },
+    answer: { a: 'Vivid dreams occur during REM sleep.' },
+  },
+  {
+    question:
+      'Children who experience nightmares have these during which stage of sleep?',
+    choices: {
+      a: 'Early morning sleep',
+      b: 'Non rapid eye movement (NREM) sleep',
+      c: 'Rapid eye movement (REM) sleep',
+      d: 'Sleep induction',
+    },
+    answer: {
+      b: 'Nightmares that occur in children take place during NREM sleep.',
+    },
+  },
+  {
+    question:
+      'A patient reports difficulty falling asleep most nights and is constantly fatigued. The patient does not want to take medications to help with sleep. What non-pharmacologic measure will the nurse recommend?',
+    choices: {
+      a: '"Exercise in the evening to promote bedtime fatigue."',
+      b: '"Get out of bed at the same time each morning."',
+      c: '"Have a glass of wine at bedtime to help you relax."',
+      d: '"Take daytime naps to minimize daytime fatigue."',
+    },
+    answer: {
+      b: 'To promote sleep, patients should be advised to arise at the same time each morning to establish a routine. Patients should avoid strenuous exercise before bedtime. Patients should not consume alcohol 6 hours before bedtime. Patients should not take daytime naps.',
+    },
+  },
+  {
+    question:
+      'A patient asks the nurse about taking over-the-counter sleeping aids. The nurse will tell the patient that the active ingredient in these products is often a(n)',
+    choices: {
+      a: 'antiemetic.',
+      b: 'antihistamine.',
+      c: 'barbiturate.',
+      d: 'benzodiazepine.',
+    },
+    answer: {
+      b: 'The primary ingredient in OTC sleep aids is an antihistamine such as diphenhydramine, not barbiturates or benzodiazepines.',
+    },
+  },
+  {
+    question:
+      'An older adult patient reports frequent nighttime awakening because of arthritis pain and asks the nurse about taking an over-the-counter product to help with this problem. The nurse will recommend that the patient discuss which medication with the provider?',
+    choices: {
+      a: 'Ibuprofen (Motrin)',
+      b: 'Nytol',
+      c: 'Sominex',
+      d: 'Tylenol PM',
+    },
+    answer: {
+      d: 'The main sleep problem experienced by older adults is frequent nighttime awakening. To alleviate pain and aid sleep, the OTC drug Tylenol PM, which contains diphenhydramine and acetaminophen may be taken. Ibuprofen occasionally helps if it can alleviate the discomfort that hinders sleep.',
+    },
+  },
+  {
+    question:
+      'A patient who has been taking butabarbital (Butisol) for several weeks reports being drowsy and having difficulty performing tasks at work most mornings. The nurse suspects that which drug effects have occurred?',
+    choices: {
+      a: 'Dependence',
+      b: 'Hangover',
+      c: 'Tolerance',
+      d: 'Withdrawal',
+    },
+    answer: {
+      b: 'Intermediate-acting hypnotics, such as butabarbital, are useful for sustaining sleep, but patients often experience residual drowsiness in the morning, or hangover. Drug dependence occurs when patients develop a need for the drug. Tolerance refers to a reduced drug effect requiring larger amounts of drug to get the desired effect. Withdrawal occurs when stopping the drug causes symptoms that can only be alleviated by taking the drug.',
+    },
+  },
+  {
+    question:
+      'The nurse is providing teaching for a patient who will begin taking zolpidem tartrate (Ambien) 10 mg at bedtime as a sleep aid. Which statement by the patient indicates understanding of the teaching?',
+    choices: {
+      a: '"I should take this medication with food to avoid stomach upset."',
+      b: '"I will take this medication within 30 minutes of bedtime."',
+      c: '"If this medication is not effective, I may increase the dose to 15 mg."',
+      d: '"Tolerance and drug dependence do not occur with this medication."',
+    },
+    answer: {
+      b: 'Zolpidem is a non-benzodiazepine sleep aid. It should be taken 30 minutes before desired sleep. Food decreases the absorption, so it should be taken on an empty stomach. The maximum dose is 10 mg. Tolerance and dependence may occur.',
+    },
+  },
+  {
+    question:
+      'A patient who has been taking a benzodiazepine as a sleep aid for several months wishes to stop taking the medication. The nurse will suggest that the patient taper the dose gradually to avoid which effect?',
+    choices: {
+      a: 'Depression',
+      b: 'Hangover',
+      c: 'Hypnotic rebound',
+      d: 'Withdrawal',
+    },
+    answer: {
+      d: 'Benzodiazepines cause tolerance, which means that abrupt cessation can result in withdrawal symptoms such as tremors and muscle twitching. A hangover is residual drowsiness that occurs the day after taking a hypnotic.',
+    },
+  },
+  {
+    question:
+      'The nurse is preparing a patient for surgery. The patient received a hypnotic medication the night prior and the nurse is administering midazolam (Versed) and atropine. The patient asks why all of these medications are necessary. The nurse will tell the patient that they are given for which reason?',
+    choices: {
+      a: 'To decrease the amount of general anesthesia needed',
+      b: 'To minimize postoperative drowsiness',
+      c: 'To prolong the anesthetized state',
+      d: 'To speed up anesthesia induction',
+    },
+    answer: {
+      a: 'Balanced anesthesia includes giving a hypnotic the night prior to surgery, premedication with an opioid analgesic or benzodiazepine plus an anticholinergic, and then a short-acting barbiturate, an inhaled gas, and a muscle relaxant. One effect of this is to decrease the amount of general anesthetic needed. It may reduce postoperative nausea and vomiting, but it does not decrease drowsiness. It does not affect the duration of anesthesia, which is dependent on the length of time the inhaled gas is given, or the rate of induction.',
+    },
+  },
+  {
+    question:
+      'During balanced anesthesia, which type of medication is given while the surgery is performed?',
+    choices: {
+      a: 'Anticholinergics',
+      b: 'Benzodiazepines',
+      c: 'Hypnotics',
+      d: 'Inhaled anesthetic',
+    },
+    answer: {
+      d: 'An inhaled anesthetic is given to induce anesthesia and is maintained throughout the surgical procedure. The other medications are given prior to anesthesia induction.',
+    },
+  },
+  {
+    question:
+      'The nurse performs a preoperative assessment on a patient and asks about alcohol use. The patient asks why this information is important. The nurse will explain that patients who consume increased amounts of alcohol',
+    choices: {
+      a: 'may have a prolonged postoperative recovery time.',
+      b: 'may not be eligible for surgery.',
+      c: 'may not receive inhaled gases for anesthesia.',
+      d: 'may require changes in anesthesia drug doses.',
+    },
+    answer: {
+      d: 'The type and amount of anesthetics may need to be adjusted if patients consume large amounts of alcohol as well as for those who smoke, who are pregnant, or who are obese. These questions are asked prior to surgery so providers can plan for this.',
+    },
+  },
+  {
+    question:
+      'The nurse is caring for a patient in the post-anesthesia care unit who has received a spinal anesthetic. Which action will the nurse perform?',
+    choices: {
+      a: 'Ambulate the patient as soon as consciousness returns.',
+      b: 'Elevate the head of the bed to a semi Fowler’s position.',
+      c: 'Have the patient lay flat for 6 to 8 hours after the surgery.',
+      d: 'Turn the patient from side to side every 15 minutes.',
+    },
+    answer: {
+      c: 'Patients who have had spinal anesthesia should remain flat for 6 to 8 hours to decrease the likelihood of losing spinal fluid, causing a headache.',
+    },
+  },
+  {
+    question:
+      'A nursing student asks the nurse to explain the role of cyclooxygenase-2 (COX-2) and its role in inflammation. The nurse will explain that COX-2',
+    choices: {
+      a: 'converts arachidonic acid into a chemical mediator for inflammation.',
+      b: 'directly causes vasodilation and increased capillary permeability.',
+      c: 'irritates the gastric mucosa to cause gastrointestinal upset.',
+      d: 'releases prostaglandins, which cause inflammation and pain in tissues.',
+    },
+    answer: {
+      a: 'COX-2 is an enzyme that converts arachidonic acid into prostaglandins and their products, and this synthesis causes pain and inflammation. They do not act directly to cause inflammation. COX-1 irritates the gastric mucosa. COX-2 synthesizes but does not release prostaglandins.',
+    },
+  },
+  {
+    question:
+      'A nursing student asks how nonsteroidal antiinflammatory drugs (NSAIDs) work to suppress inflammation and reduce pain. The nurse will explain that NSAIDs',
+    choices: {
+      a: 'exert direct actions to cause relaxation of smooth muscle.',
+      b: 'inhibit cyclooxygenase that is necessary for prostaglandin synthesis.',
+      c: 'interfere with neuronal pathways associated with prostaglandin action.',
+      d: 'suppress prostaglandin activity by blocking tissue receptor sites.',
+    },
+    answer: {
+      b: 'NSAIDs act by inhibiting COX-1 and COX-2 to help block prostaglandin synthesis. They do not have direct action on tissues, nor do they interfere with chemical receptor sites or neuronal pathways.',
+    },
+  },
+  {
+    question:
+      'A patient is taking ibuprofen 400 mg every 4 hours to treat moderate arthritis pain and reports that it is less effective than before. What action will the nurse take?',
+    choices: {
+      a: 'Counsel the patient to discuss a prescription NSAID with the provider.',
+      b: 'Recommend adding aspirin to increase the antiinflammatory effect.',
+      c: 'Suggest asking the provider about a short course of corticosteroids.',
+      d: 'Tell the patient to increase the dose to 800 mg every 4 hours.',
+    },
+    answer: {
+      a: 'The patient should discuss another NSAID with the provider if tolerance has developed to the over-the-counter NSAID. Patients should not take aspirin with NSAIDs because of the increased risk of bleeding and gastrointestinal upset. Steroids are not the drugs of choice for arthritis because of their side effects and are not used unless inflammation is severe. A prescription NSAID would be used prior to starting corticosteroids. Increasing the dose will increase side effects but may not increase desired effects. The maximum dose per day is 3200 mg, which would be exceeded when increasing the dose to 800 mg every 4 hours.',
+    },
+  },
+  {
+    question:
+      'A patient who is taking aspirin for arthritis pain asks the nurse why it also causes gastrointestinal upset. The nurse understands that this is because aspirin',
+    choices: {
+      a: 'increases gastrointestinal secretions.',
+      b: 'increases hypersensitivity reactions.',
+      c: 'inhibits both COX-1 and COX-2.',
+      d: 'is an acidic compound.',
+    },
+    answer: {
+      c: 'Aspirin is a COX-1 and COX-2 inhibitor. COX-1 protects the stomach lining, so when it is inhibited, gastric upset occurs. Aspirin does not increase gastrointestinal secretions or hypersensitivity reactions. It is a weak acid.',
+    },
+  },
+  {
+    question:
+      'A patient is taking aspirin to help prevent myocardial infarction and is experiencing moderate gastrointestinal upset. The nurse will contact the patient’s provider to discuss changing from aspirin to which drug?',
+    choices: {
+      a: 'A COX-2 inhibitor',
+      b: 'Celecoxib (Celebrex)',
+      c: 'Enteric-coated aspirin',
+      d: 'Nabumetone (Relafen)',
+    },
+    answer: {
+      c: 'Aspirin is used to inhibit platelet aggregation to prevent cardiovascular accident and myocardial infarction. Patients taking aspirin for this purpose would not benefit from COX-2 inhibitors, since the COX-1 enzyme is responsible for inhibiting platelet aggregation. The patient should take enteric-coated aspirin to lessen the gastrointestinal distress. Celecoxib and nabumetone are both COX-2 inhibitors.',
+    },
+  },
+  {
+    question:
+      'A patient who is 7-month pregnant and who has arthritis asks the nurse if she can take aspirin for pain. The nurse will tell her not to take aspirin for which reason?',
+    choices: {
+      a: 'It can result in adverse effects on her fetus.',
+      b: 'It causes an increased risk of Reye’s syndrome.',
+      c: 'It increases hemorrhage risk.',
+      d: 'It will cause increased gastrointestinal distress.',
+    },
+    answer: {
+      a: 'Patients should not take aspirin during the third trimester of pregnancy because it can cause premature closure of the ductus arteriosus in the fetus. It does not increase her risk of Reye’s syndrome. Aspirin taken within a week of delivery will increase the risk of bleeding. It can cause gastrointestinal distress, but this is not the reason for caution.',
+    },
+  },
+  {
+    question:
+      'The nurse is performing a health history on a patient who has arthritis. The patient reports tinnitus. Suspecting a drug adverse effect, the nurse will ask the patient about which medication?',
+    choices: {
+      a: 'Aspirin (Bayer)',
+      b: 'Acetaminophen (Tylenol)',
+      c: 'Anakinra (Kineret)',
+      d: 'Prednisone (Deltasone)',
+    },
+    answer: {
+      a: 'Aspirin causes tinnitus at low toxicity levels. The nurse should question the patient about this medication. The other medications do not have this side effect.',
+    },
+  },
+  {
+    question:
+      'The nurse is teaching a patient about using high-dose aspirin to treat arthritis. What information will the nurse include when teaching this patient?',
+    choices: {
+      a: '"A normal serum aspirin level is between 30 and 40 mg/dL."',
+      b: '"You may need to stop taking this drug a week prior to surgery."',
+      c: '"You will need to monitor aspirin levels if you are also taking warfarin."',
+      d: '"Your stools may become dark, but this is a harmless side effect."',
+    },
+    answer: {
+      b: 'Aspirin should be discontinued prior to surgery to avoid prolonged bleeding time. A normal serum level is 15 to 30 mg/dL. Patients taking warfarin and aspirin will have increased amounts of warfarin, so the INR will need to be monitored. Tarry stools are a symptom of gastrointestinal bleeding and should be reported.',
+    },
+  },
+  {
+    question:
+      'A patient who takes high-dose aspirin to treat rheumatoid arthritis has a serum salicylate level of 35 mg/dL. The nurse will perform which action?',
+    choices: {
+      a: 'Assess the patient for tinnitus.',
+      b: 'Monitor the patient for signs of Reye’s syndrome.',
+      c: 'Notify the provider of severe aspirin toxicity.',
+      d: 'Request an order for an increased aspirin dose.',
+    },
+    answer: {
+      a: 'Mild toxicity occurs at levels above 30 mg/dL, so the nurse should assess for signs of toxicity, such as tinnitus. This level will not increase the risk for Reye’s syndrome. Severe toxicity occurs at levels greater than 50 mg/dL. The dose should not be increased.',
+    },
+  },
+  {
+    question:
+      'The nurse is caring for a postpartum woman who is refusing opioid analgesics but is rating her pain as a 7 or 8 on a 10-point pain scale. The nurse will contact the provider to request an order for which analgesic medication?',
+    choices: {
+      a: 'Diclofenac sodium (Voltaren)',
+      b: 'Ketoprofen (Orudis)',
+      c: 'Ketorolac (Toradol)',
+      d: 'Naproxen (Naprosyn)',
+    },
+    answer: {
+      c: 'Ketorolac is the first injectable NSAID and has shown analgesic efficacy equal or superior to that of opioid analgesics. The other NSAIDs listed are not used for postoperative pain.',
+    },
+  },
+  {
+    question:
+      'A patient who has osteoarthritis with mild to moderate pain asks the nurse about taking over-the-counter ibuprofen (Motrin). What will the nurse tell this patient?',
+    choices: {
+      a: '"It may take several weeks to achieve therapeutic effects."',
+      b: '"Unlike aspirin, there is no increased risk of bleeding with ibuprofen."',
+      c: '"Take ibuprofen twice daily for maximum analgesic benefit."',
+      d: '"Combine ibuprofen with acetaminophen for best effect."',
+    },
+    answer: {
+      a: 'OTC NSAIDs can be effective for mild to moderate arthritis pain, but the effects may not appear for several weeks. NSAIDs carry a risk for bleeding. Ibuprofen is taken TID or QID. Ibuprofen should not be combined with aspirin or acetaminophen.',
+    },
+  },
+  {
+    question:
+      'The nurse is caring for a patient who has been taking an NSAID for 4 weeks for osteoarthritis. The patient reports decreased pain, but the nurse notes continued swelling of the affected joints. The nurse will perform which action?',
+    choices: {
+      a: 'Assess the patient for drug-seeking behaviors.',
+      b: 'Notify the provider that the drug is not effective.',
+      c: 'Reassure the patient that swelling will decrease eventually.',
+      d: 'Remind the patient that this drug is given for pain only.',
+    },
+    answer: {
+      b: 'This medication is effective for both pain and swelling. After 4 weeks, there should be some decrease in swelling, so the nurse should report that this medication is ineffective. There is no indication that this patient is seeking an opioid analgesic. The drug should be effective within several weeks. NSAIDs are given for pain and swelling.',
+    },
+  },
+  {
+    question:
+      'Which antigout medication is used to treat chronic tophaceous gout?',
+    choices: {
+      a: 'Allopurinol (Zyloprim)',
+      b: 'Colchicine',
+      c: 'Probenecid (Benemid)',
+      d: 'Sulfinpyrazone (Anturane)',
+    },
+    answer: {
+      a: 'Allopurinol inhibits the biosynthesis of uric acid and is used long-term to manage chronic gout. Colchicine does not inhibit uric acid synthesis or promote uric acid secretion and is not used for chronic gout. Probenecid can be used for chronic gout but is not the first choice. Sulfinpyrazone has many serious side effects.',
+    },
+  },
+  {
+    question:
+      'The nurse is assessing a patient who has gout who will begin taking allopurinol (Zyloprim). The nurse reviews the patient’s medical record and will be concerned about which laboratory result?',
+    choices: {
+      a: 'Elevated BUN and creatinine',
+      b: 'Increased serum uric acid',
+      c: 'Slight increase in the white blood count',
+      d: 'Increased serum glucose',
+    },
+    answer: {
+      a: 'Antigout drugs are excreted via the kidneys, so patients should have adequate renal function.',
+    },
+  },
+  {
+    question:
+      'The nurse provides teaching for a patient who will begin taking allopurinol. Which statement by the patient indicates understanding of the teaching?',
+    choices: {
+      a: '"I should increase my vitamin C intake."',
+      b: '"I will get yearly eye exams."',
+      c: '"I will increase my protein intake."',
+      d: '"I will limit fluids to prevent edema."',
+    },
+    answer: {
+      b: 'Patients taking allopurinol can have visual changes with prolonged use and should have yearly eye exams. It is not necessary to increase vitamin C. Protein can increase purine intake, which is not recommended. Patients should consume extra fluids.',
+    },
+  },
+  {
+    question:
+      'The nurse is evaluating a patient 2 hours after giving a dose of 30 mg of codeine with acetaminophen for postoperative pain after abdominal surgery. The patient reports a pain level of 7 on a scale of 1 to 10. The nurse notes a heart rate of 110 beats per minute, a respiratory rate of 28 breaths per minute, and a blood pressure of 180/90 mm Hg. Which action will the nurse take?',
+    choices: {
+      a: 'Administer the next dose of codeine 1 hour early.',
+      b: 'Ask the provider if the codeine dose can be increased.',
+      c: 'Contact the provider to ask if a dose of ibuprofen may be given now.',
+      d: 'Request an order for oxycodone with acetaminophen (Percocet).',
+    },
+    answer: {
+      d: 'The patient is showing signs of moderate to severe pain unrelieved by codeine, so the nurse should request a more potent opioid analgesic such as oxycodone. Codeine is effective for mild to moderate pain so will not be effective for this patient even if the dose is increased. The medication should not be given more frequently than every 4 hours. Ibuprofen is used for musculoskeletal pain and not postoperative pain.',
+    },
+  },
+  {
+    question:
+      'The nurse is teaching a female patient who will begin taking 2 tablets of 325 mg acetaminophen every 4 to 6 hours as needed for pain. Which statement by the patient indicates understanding of the teaching?',
+    choices: {
+      a: '"I may take acetaminophen up to 6 times daily if needed."',
+      b: '"I should increase the dose of acetaminophen if I drink caffeinated coffee."',
+      c: '"If I take oral contraceptive pills, I should use back-up contraception."',
+      d: '"It is safe to take acetaminophen with any over-the-counter medications."',
+    },
+    answer: {
+      a: 'The maximum daily dose of acetaminophen is 4000 mg. If this patient takes 650 mg/dose 6 times daily, this amount is safe. Taking acetaminophen with caffeine increases the effect of the acetaminophen. Taking acetaminophen with OCPs decreases the effect of the acetaminophen but does not diminish the effect of the OCP. Many over-the-counter medications contain acetaminophen, so patients should be advised to read labels carefully to avoid overdose.',
+    },
+  },
+  {
+    question:
+      'The parent of a 5-year-old child asks the nurse to recommend an over-the-counter pain medication for the child. Which analgesic will the nurse recommend?',
+    choices: {
+      a: 'Acetaminophen (Tylenol)',
+      b: 'Aspirin (Ecotrin)',
+      c: 'Diflunisal (Dolobid)',
+      d: 'Ibuprofen (Motrin)',
+    },
+    answer: {
+      a: 'Acetaminophen is safe to give to children and does not cause gastrointestinal upset or interfere with platelet aggregation. Aspirin carries an increased risk of Reye’s syndrome in children. Diflunisal (Dolobid) is not available over the counter.',
+    },
+  },
+  {
+    question:
+      'The nurse is performing an admission assessment on an adolescent who reports taking extra-strength acetaminophen (Tylenol) regularly to treat daily headaches. The nurse will notify the patient’s provider and discuss an order for',
+    choices: {
+      a: 'a selective serotonin receptor agonist (SSRA).',
+      b: 'hydrocodone with acetaminophen for headache pain.',
+      c: 'liver enzyme tests.',
+      d: 'serum glucose testing.',
+    },
+    answer: {
+      c: 'Large doses or overdoses of acetaminophen can be toxic to hepatic cells, so when large doses are administered over a long period, liver function should be assessed. Daily headaches are not typical of migraine headaches, so SSRA medication is not indicated. Hydrocodone with acetaminophen is not indicated without further evaluation of headaches. Serum glucose is not indicated.',
+    },
+  },
+  {
+    question:
+      'The nurse is caring for a postoperative older patient who received PO hydrocodone with acetaminophen (Lortab) 45 minutes prior after reporting a pain level of 8 on a scale of 1 to 10. The patient reports a pain level of 4, and the nurse notes a respiratory rate of 20 breaths per minute, a heart rate of 92 beats per minute, and a blood pressure of 170/95 mm Hg. Which action will the nurse take?',
+    choices: {
+      a: 'Contact the provider and request an order for a more potent opioid analgesic.',
+      b: 'Reassess the patient in 30 minutes.',
+      c: 'Request an order for ibuprofen to augment the opioid analgesic.',
+      d: 'Suggest that the patient use non pharmacologic measures to relieve pain.',
+    },
+    answer: {
+      a: 'Even though the patient reports decreased pain, the patient’s vital signs indicate continued discomfort. The nurse should contact the provider to request a stronger analgesic. The pain medication should have been effective within 30 minutes. Ibuprofen is used for musculoskeletal pain. Non-pharmacologic measures may be useful, but the patient still needs a stronger analgesic.',
+    },
+  },
+  {
+    question:
+      'The nurse is providing teaching to a patient who will begin taking aspirin to treat arthritis pain. Which statement by the patient indicates a need for further teaching?',
+    choices: {
+      a: '"I should increase fiber and fluids while taking aspirin."',
+      b: '"I will call my provider if I have abdominal pain."',
+      c: '"I will drink a full glass of water with each dose."',
+      d: '"I will notify my provider of ringing in my ears."',
+    },
+    answer: {
+      a: 'Aspirin is not constipating, so patients do not need to be counseled to consume extra fluids and fiber. Abdominal pain can occur with gastrointestinal bleeding, and tinnitus (ringing in the ears) can be an early sign of toxicity, so patients should be taught to contact their provider if these occur. Taking a full glass of water with each dose helps minimize gastrointestinal side effects.',
+    },
+  },
+  {
+    question:
+      'An adolescent female has dysmenorrhea associated with heavy menstrual periods. The patient’s provider has recommended ibuprofen (Motrin). When teaching this patient about this drug, the nurse will tell her that ibuprofen',
+    choices: {
+      a: 'may decrease the effectiveness of oral contraceptive pills.',
+      b: 'may increase bleeding during her period.',
+      c: 'should be taken on an empty stomach to increase absorption.',
+      d: 'will decrease the duration of her periods.',
+    },
+    answer: {
+      b: 'When nonsteroidal antiinflammatory drugs (NSAIDs) are used to treat dysmenorrhea, excess bleeding may occur during the first 2 days of a period. NSAIDs do not decrease the effect of OCPs. NSAIDs are irritating to the stomach, so patients should take it with food or a full glass of water. NSAIDs will not decrease the duration of periods.',
+    },
+  },
+  {
+    question:
+      'The emergency department nurse is caring for a patient who has received morphine sulfate for severe pain following an injury. The nurse performs a drug history and learns that the patient takes St. John’s wort for symptoms of depression. The nurse will observe this patient closely for an increase in which opioid adverse effect?',
+    choices: {
+      a: 'Constipation',
+      b: 'Pruritus',
+      c: 'Respiratory depression',
+      d: 'Sedation',
+    },
+    answer: {
+      d: 'St. John’s wort can increase the sedative effects of opioids. It does not enhance other side effects.',
+    },
+  },
+  {
+    question:
+      'The nurse is performing an admission assessment on a stable patient admitted after a motor vehicle accident. The patient reports having "bad pain." What will the nurse do first?',
+    choices: {
+      a: 'Administer acetaminophen (Tylenol).',
+      b: 'Ask the patient to rate the pain on a 1 to 10 scale.',
+      c: 'Attempt to determine what type of pain the patient has.',
+      d: 'Request an order for an intravenous opioid analgesic.',
+    },
+    answer: {
+      b: 'To ascertain severity of pain, the nurse should ask the patient to rate the pain on a scale of 1 to 10. Further assessments include location and type of pain. Pain medication should be given after the severity of pain is assessed so that an appropriate analgesic may be given.',
+    },
+  },
+  {
+    question:
+      'The nurse assumes care of a patient in the post-anesthesia care unit (PACU). The patient had abdominal surgery and is receiving intravenous morphine sulfate for pain. The patient is asleep and has not voided since prior to surgery. The nurse assesses a respiratory rate of 10 breaths per minute and notes hypoactive bowel sounds. The nurse will contact the surgeon to report which condition?',
+    choices: {
+      a: 'Paralytic ileus',
+      b: 'Respiratory depression',
+      c: 'Somnolence',
+      d: 'Urinary retention',
+    },
+    answer: {
+      b: 'The patient’s respiratory rate of 10 breaths per minute is lower than normal and is a sign of respiratory depression, which is a common adverse effect of opioid analgesics. The other effects may occur with opioids but are also not expected this soon after abdominal surgery.',
+    },
+  },
+  {
+    question:
+      'One hour after receiving intravenous morphine sulfate, a patient reports generalized itching. The nurse assesses the patient and notes clear breath sounds, no rash, respirations of 14 breaths per minute, a heart rate of 68 beats per minute, and a blood pressure of 110/70 mm Hg. Which action will the nurse take?',
+    choices: {
+      a: 'Administer naloxone to reverse opiate overdose.',
+      b: 'Have resuscitation equipment available at the bedside.',
+      c: 'Prepare an epinephrine injection in case of an anaphylactic reaction.',
+      d: 'Reassure the patient that this is a common side effect of this drug.',
+    },
+    answer: {
+      d: 'Pruritus is a common opioid side effect and can be managed with diphenhydramine. Patients developing anaphylaxis will have urticaria and hypotension, and these patients will need epinephrine and resuscitation. Respiratory depression is a sign of morphine overdose, which will require naloxone.',
+    },
+  },
+  {
+    question:
+      'The nurse is caring for a patient who was admitted with a fractured leg and for observation of a closed head injury after a motor vehicle accident. The patient reports having pain at a level of 3 on a 1 to 10 pain scale. The nurse will expect the provider to order which analgesic medication for this patient?',
+    choices: {
+      a: 'Acetaminophen (Tylenol) PO',
+      b: 'Hydromorphone HCl (Dilaudid) IM',
+      c: 'Morphine sulfate PCA',
+      d: 'Transdermal fentanyl (Duragesic)',
+    },
+    answer: {
+      a: 'Use of opioid analgesics is contraindicated for patients with head injuries because of the risk of increased intracranial pressure. If opioids are necessary because of severe pain, they must be given in reduced doses. This patient is experiencing mild pain, so acetaminophen is an appropriate analgesic.',
+    },
+  },
+  {
+    question:
+      'Which patient may require a higher than expected dose of an opioid analgesic?',
+    choices: {
+      a: 'A patient with cancer',
+      b: 'A patient with a concussion',
+      c: 'A patient with hypotension',
+      d: 'A patient 3 days after surgery',
+    },
+    answer: {
+      a: 'Opioids are titrated for oncology patients until pain relief is achieved or the side effects become intolerable, and extremely high doses may be required. Patient with closed head injuries should receive reduced doses of opioids if at all to reduce the risk of increased intracranial pressure. Patients with hypotension should receive reduced doses to prevent further decrease in blood pressure. Patients who are 3 days postoperation should not be experiencing severe pain.',
+    },
+  },
+  {
+    question:
+      'The nurse assesses an older patient 60 minutes after administering 4 mg of intravenous morphine sulfate (MS) for postoperative pain. The patient’s analgesia order is for 2 to 5 mg of MS IV every 2 hours. The nurse notes that the patient is lying very still. The patient’s heart rate is 96 beats per minute, respiratory rate is 14 breaths per minute, and blood pressure is 140/90 mm Hg. When asked to rate the level of pain, the patient replies "just a 5." The nurse will perform which action?',
+    choices: {
+      a: 'Give 3 mg of MS at the next dose.',
+      b: 'Give 5 mg of MS at the next dose.',
+      c: 'Request an order for an oral opioid to give now.',
+      d: 'Request an order for acetaminophen to give now.',
+    },
+    answer: {
+      b: 'Older patients often minimize pain when asked, so the nurse should evaluate nonverbal cues to pain such as elevated heart rate and blood pressure and the fact that the patient is lying very still. The nurse should increase the dose the next time the pain medication is given.',
+    },
+  },
+  {
+    question:
+      'A postoperative patient has a history of opioid abuse. Which analgesic medication will the nurse expect the provider to order for this patient?',
+    choices: {
+      a: 'Buprenorphine (Buprenex)',
+      b: 'Butorphanol tartrate (Stadol)',
+      c: 'Naloxone (Narcan)',
+      d: 'Pentazocine (Talwin)',
+    },
+    answer: {
+      a: 'Buprenorphine is an opioid agonist–antagonist analgesic and was developed to help decrease opioid abuse. Butorphanol and pentazocine are also in this class, but reports say that they cause dependence. Naloxone is an opioid antagonist and is given to reverse the effects of opioids if toxicity occurs.',
+    },
+  },
+  {
+    question:
+      'The nurse is caring for a 6-year-old child who had surgery that morning. The child is awake and lying very still in bed and won’t respond when the nurse asks about pain. The nurse will perform which action?',
+    choices: {
+      a: 'Ask the child to rate the pain on a scale of 1 to 10.',
+      b: 'Encourage the child to request pain medication when needed.',
+      c: 'Evaluate the child’s pain using an "ouch" scale.',
+      d: 'Plan to administer pain medication if the child begins to cry.',
+    },
+    answer: {
+      c: 'Some children will not verbalize discomfort even when they have severe pain because they fear injections. Nurses may use an “ouch” scale or a faces scale to evaluate pain if the child won’t respond. Waiting for severe pain is not appropriate.',
+    },
+  },
+];
+
+export const Unit3 = [
+  {
+    question:
+      'The nurse is teaching a child and a parent about taking methylphenidate (Ritalin) to treat attention-deficit/hyperactivity disorder (ADHD). Which statement by the parent indicates understanding of the teaching?',
+    choices: {
+      a: '#I should give this drug to my child at bedtime.#',
+      b: '#My child should avoid products containing caffeine.#',
+      c: '#The drug should be stopped immediately if my child develops aggression.#',
+      d: '#We should monitor my child’s weight since weight gain is common.#',
+    },
+    answer: {
+      b: 'Methylphenidate is a stimulant, so other stimulants such as caffeine should be  avoided because a high plasma caffeine level can be fatal. The medication  should be taken in the morning. Patients should be taught not to stop the drug  abruptly to avoid withdrawal symptoms. Weight loss is common.',
+    },
+  },
+  {
+    question:
+      'The parent of a child who is taking amphetamine (Adderall) to treat attention-deficit/hyperactivity disorder (ADHD) asks the provider to recommend an over-the-counter medication to treat a cold. What will the nurse tell the parent?',
+    choices: {
+      a: '#Avoid any products containing pseudoephedrine or caffeine.#',
+      b: '#Never give over-the-counter medications with Adderall.#',
+      c: '#Sudafed is a safe and effective decongestant.#',
+      d: '#Use any over-the-counter medication from the local pharmacy.#',
+    },
+    answer: {
+      a: 'Adderall is a stimulant, so other stimulants, such as caffeine and  pseudoephedrine, should be avoided because a high plasma caffeine level can  be fatal.',
+    },
+  },
+  {
+    question:
+      'The nurse is checking an 8-year-old child who has attention-deficit/ hyperactivity disorder (ADHD) into a clinic for an annual well-child visit. The child takes methylphenidate HCl (Ritalin). Which assessments are especially important for this child?',
+    choices: {
+      a: 'Heart rate, respiratory rate, and oxygen saturation',
+      b: 'Height, weight, and blood pressure',
+      c: 'Measures of fine- and gross-motor development',
+      d: 'Nausea, vomiting, and gastrointestinal upset',
+    },
+    answer: {
+      b: 'Methylphenidate may cause growth suppression, so the child’s height and weight  should be assessed. Methylphenidate may also increase blood pressure, so the  nurse should pay careful attention to blood pressure. ',
+    },
+  },
+  {
+    question:
+      'The parent of an adolescent who has taken methylphenidate 20 mg/day for 6 months for attention-deficit/hyperactivity disorder (ADHD) brings the child to clinic for evaluation of a recent onset of nausea, vomiting, and headaches. The parent expresses concern that the child seems less focused and more hyperactive than before. What will the nurse do next?',
+    choices: {
+      a: 'Ask the child whether the drug is being taken as prescribed.',
+      b: 'Contact the provider to discuss increasing the dose to 30 mg/day.',
+      c: 'Recommend taking the drug with meals to reduce gastrointestinal side effects.',
+      d: 'Report signs of drug toxicity to the patient’s provider.',
+    },
+    answer: {
+      a: 'Nausea, vomiting, and headaches can occur with drug withdrawal, along with a  recurrence of symptoms. The nurse should ask the child about drug compliance.  Methylphenidate should be taken 30 to 45 minutes before meals, not with meals.',
+    },
+  },
+  {
+    question:
+      'The nurse is teaching a parent about methylphenidate (Ritalin) to treat attention-deficit/hyperactivity disorder (ADHD). Which statement by the parent indicates understanding of the teaching?',
+    choices: {
+      a: '#I should consult a pharmacist when giving my child OTC medications.#',
+      b: '#I will only give my child diet soft drinks while administering this medication.#',
+      c: '#Medication therapy means that behavioral therapy will not be necessary.#',
+      d: '#Weight gain is a common side effect of this medication.#',
+    },
+    answer: {
+      a: 'Since many OTC medications contain stimulants, parents should consult a  pharmacist or the provider before giving them with methylphenidate. Diet soft  drinks often contain caffeine, a stimulant, and should be avoided with  methylphenidate use. Behavioral therapy should still be an essential part of the  treatment for ADHD. Weight loss is common.',
+    },
+  },
+  {
+    question:
+      'The parent of an obese 10-year-old child asks the nurse about medications to aid in weight loss. Which response by the nurse is correct?',
+    choices: {
+      a: '#Anorexiants are often used to ‘jump start’ a weight loss regimen in children.#',
+      b: '#Children are able to use over-the counter anorexiants on a long-term basis.#',
+      c: '#Children under 12 years of age should not use weight loss drugs.#',
+      d: '#Side effects of anorexiants occur less often in children.#',
+    },
+    answer: {
+      c: 'Anorexiants should not be given to children under age 12 years.',
+    },
+  },
+  {
+    question:
+      'A patient is brought to the emergency department with a drug overdose causing respiratory depression. Which drug will the nurse expect to administer?',
+    choices: {
+      a: 'Albuterol (Proventil)',
+      b: 'Caffeine (Cafcit)',
+      c: 'Doxapram (Dopram)',
+      d: 'Methylphenidate (Ritalin)',
+    },
+    answer: {
+      c: 'Doxapram is given to treat respiratory depression caused by drug overdose.',
+    },
+  },
+  {
+    question:
+      'A patient reports difficulty staying awake during the daytime in spite of getting adequate sleep every night. Which medication will the nurse expect the provider to order for this patient?',
+    choices: {
+      a: 'Caffeine (NoDoz)',
+      b: 'Dexmethylphenidate HCl',
+      c: 'Modafinil (Provigil)',
+      d: 'Theophylline',
+    },
+    answer: { c: 'Modafinil is given to treat narcolepsy.' },
+  },
+  {
+    question:
+      'A patient reports difficulty falling asleep most nights and is constantly fatigued. The patient does not want to take medications to help with sleep. What non-pharmacologic measure will the nurse recommend?',
+    choices: {
+      a: '#Exercise in the evening to promote bedtime fatigue.#',
+      b: '#Get out of bed at the same time each morning.#',
+      c: '#Have a glass of wine at bedtime to help you relax.#',
+      d: '#Take daytime naps to minimize daytime fatigue.#',
+    },
+    answer: {
+      b: 'To promote sleep, patients should be advised to arise at the same time each  morning to establish a routine. Patients should avoid strenuous exercise before bedtime. Patients should not consume alcohol 6 hours before bedtime. Patients  should not take daytime naps.',
+    },
+  },
+  {
+    question:
+      'A patient asks the nurse about taking over-the-counter sleeping aids. The nurse will tell the patient that the active ingredient in these products is often a(n)',
+    choices: {
+      a: 'antiemetic.',
+      b: 'antihistamine.',
+      c: 'barbiturate.',
+      d: 'benzodiazepine.',
+    },
+    answer: {
+      b: 'The primary ingredient in OTC sleep aids is an antihistamine such as  diphenhydramine, not barbiturates or benzodiazepines.',
+    },
+  },
+  {
+    question:
+      'The nurse is providing teaching for a patient who will begin taking zolpidem tartrate (Ambien) 10 mg at bedtime as a sleep aid. Which statement by the patient indicates understanding of the teaching?',
+    choices: {
+      a: '#I should take this medication with food to avoid stomach upset.#',
+      b: '#I will take this medication within 30 minutes of bedtime.#',
+      c: '#If this medication is not effective, I may increase the dose to 15 mg.#',
+      d: '#Tolerance and drug dependence do not occur with this medication.#',
+    },
+    answer: {
+      b: 'Zolpidem is a non-benzodiazepine sleep aid. It should be taken 30 minutes  before desired sleep. Food decreases the absorption, so it should be taken on an  empty stomach. The maximum dose is 10 mg. Tolerance and dependence may  occur.',
+    },
+  },
+  {
+    question:
+      'A patient who has been taking a benzodiazepine as a sleep aid for several months wishes to stop taking the medication. The nurse will suggest that the patient taper the dose gradually to avoid which effect?',
+    choices: {
+      a: 'Depression',
+      b: 'Hangover',
+      c: 'Hypnotic rebound',
+      d: 'Withdrawal',
+    },
+    answer: {
+      d: 'Benzodiazepines cause tolerance, which means that abrupt cessation can result  in withdrawal symptoms such as tremors and muscle twitching. A hangover is  residual drowsiness that occurs the day after taking a hypnotic.',
+    },
+  },
+  {
+    question:
+      'The nurse is preparing a patient for surgery. The patient received a hypnotic medication the night prior and the nurse is administering midazolam (Versed) and atropine. The patient asks why all of these medications are necessary. The nurse will tell the patient that they are given for which reason?',
+    choices: {
+      a: 'To decrease the amount of general anesthesia needed',
+      b: 'To minimize postoperative drowsiness',
+      c: 'To prolong the anesthetized state',
+      d: 'To speed up anesthesia induction',
+    },
+    answer: {
+      a: 'Balanced anesthesia includes giving a hypnotic the night prior to surgery,  premedication with an opioid analgesic or benzodiazepine plus an  anticholinergic, and then a short-acting barbiturate, an inhaled gas, and a muscle  relaxant. One effect of this is to decrease the amount of general anesthetic  needed. It may reduce postoperative nausea and vomiting, but it does not  decrease drowsiness. It does not affect the duration of anesthesia, which is  dependent on the length of time the inhaled gas is given, or the rate of induction.',
+    },
+  },
+  {
+    question:
+      'During balanced anesthesia, which type of medication is given while the surgery is performed?',
+    choices: {
+      a: 'Anticholinergics',
+      b: 'Benzodiazepines',
+      c: 'Hypnotics',
+      d: 'Inhaled anesthetic',
+    },
+    answer: {
+      d: 'An inhaled anesthetic is given to induce anesthesia and is maintained throughout  the surgical procedure. The other medications are given prior to anesthesia  induction.',
+    },
+  },
+  {
+    question:
+      'The nurse performs a preoperative assessment on a patient and asks about alcohol use. The patient asks why this information is important. The nurse will explain that patients who consume increased amounts of alcohol',
+    choices: {
+      a: 'may have a prolonged postoperative recovery time.',
+      b: 'may not be eligible for surgery.',
+      c: 'may not receive inhaled gases for anesthesia.',
+      d: 'may require changes in anesthesia drug doses.',
+    },
+    answer: {
+      d: 'The type and amount of anesthetics may need to be adjusted if patients  consume large amounts of alcohol as well as for those who smoke, who are  pregnant, or who are obese. These questions are asked prior to surgery so  providers can plan for this.',
+    },
+  },
+  {
+    question:
+      'A patient is diagnosed with epilepsy and asks the nurse what may have caused this condition. The nurse explains that epilepsy is most often',
+    choices: {
+      a: 'caused by head trauma.',
+      b: 'idiopathic in origin.',
+      c: 'linked to a stroke.',
+      d: 'related to brain anoxia.',
+    },
+    answer: {
+      b: 'Of all seizure cases, 75% are primary, or idiopathic, with no known cause. The  remaining are secondary and may be related to head trauma, stroke, or anoxic  events.',
+    },
+  },
+  {
+    question:
+      'A patient who has epilepsy will begin an anticonvulsant medication. The patient asks the nurse how long the medication will be necessary. How will the nurse respond?',
+    choices: {
+      a: '#The medication is usually taken for a lifetime.#',
+      b: '#The medication will be given until you are seizure free.#',
+      c: '#You will need to take the medication for 3 to 5 years.#',
+      d: '#You will take the medication as needed for seizure activity.#',
+    },
+    answer: {
+      a: 'Anticonvulsants are given to prevent seizures and are usually taken throughout  the patient’s lifetime. Stopping the medication will lead to recurrence of seizures  in most patients. Some patients may attempt to stop taking the medications after  3 to 5 years of no seizure activity. Anticonvulsants are not given as needed.',
+    },
+  },
+  {
+    question:
+      'The nurse is providing teaching to the parents of a 5-year-old child who will begin taking phenytoin (Dilantin). What information will the nurse include when teaching these parents about their child’s medication?',
+    choices: {
+      a: '#Drug interactions are uncommon with phenytoin.#',
+      b: '#There are very few side effects associated with this drug.#',
+      c: '#The therapeutic range of phenytoin is between 15 and 30 mcg/mL.#',
+      d: '#Your child may need a higher dose than expected.#',
+    },
+    answer: {
+      d: 'Drug dosage for phenytoin is age related, and children, who have a rapid  metabolism, may need higher doses than those used for newborns and adults.  Phenytoin has many drug interactions and many side effects. The therapeutic  range is 10 to 20 mcg/mL.',
+    },
+  },
+  {
+    question:
+      'The nurse is caring for a patient who has a seizure disorder. The nurse notes that the patient has reddened gums that bleed when oral care is given. The nurse recognizes this finding as',
+    choices: {
+      a: 'an adverse effect of the phenytoin.',
+      b: 'a drug interaction with aspirin.',
+      c: 'a symptom of hepatotoxicity.',
+      d: 'a sign of poor self-care.',
+    },
+    answer: {
+      a: 'Hydantoins commonly cause gingival hyperplasia, which causes overgrowth of  reddened gum tissue that bleeds easily. It is not a sign of a drug interaction  (there is no known interaction between phenytoin and aspirin) or a symptom of  hepatotoxicity. It does not indicate a lack of self-care.',
+    },
+  },
+  {
+    question:
+      'The nurse is preparing to administer phenytoin (Dilantin) to a patient who has a seizure disorder. The patient appears drowsy, and the nurse notes that the last random serum drug level was 18 mcg/mL. What action will the nurse take?',
+    choices: {
+      a: 'Administer the dose since the patient is not toxic.',
+      b: 'Contact the provider to discuss decreasing the phenytoin dose.',
+      c: 'Give the drug and monitor closely for adverse effects.',
+      d: 'Report drug toxicity to the providers.',
+    },
+    answer: {
+      a: 'Drowsiness is a common side effect of phenytoin and is not cause for alarm. The patient’s drug level is normal, since 10 to 20 mcg/mL is the therapeutic range.  The nurse should administer the dose. It is not necessary to decrease the dose  or monitor the patient more closely than usual.',
+    },
+  },
+  {
+    question:
+      'The nurse is preparing to administer phenytoin to an 80-year-old patient and notes the following order: IVP phenytoin 50 mg. The nurse will perform which action?',
+    choices: {
+      a: 'Administer the undiluted drug through a Y-tube over 2 minutes.',
+      b: 'Contact the provider to question the route and the dose.',
+      c: 'Dilute the drug in dextrose solution and infuse over 15 to 20 minutes.',
+      d: 'Request an order to administer the drug intramuscularly.',
+    },
+    answer: {
+      a: 'Intravenous phenytoin should be administered undiluted through a 3-way  stopcock or Y-tubing. In older patients it should be infused at a rate of 25 mcg/ min. The dose and the route are appropriate. Phenytoin will precipitate in  dextrose solution. Intramuscular injection is very irritating to tissues and is not  used.',
+    },
+  },
+  {
+    question:
+      'The nurse is preparing to assist with blood collection on a newly admitted patient who has been taking phenytoin for several years. The provider has ordered a complete blood count and liver function tests. Which other blood test will the nurse discuss with the provider?',
+    choices: {
+      a: 'Blood glucose',
+      b: 'Coagulation studies',
+      c: 'Renal function tests',
+      d: 'Serum electrolytes',
+    },
+    answer: {
+      a: 'Patients who have taken hydantoins for long periods might have an elevated  blood sugar that results from the drug inhibiting the release of inulin. The nurse  should discuss this test with the provider.',
+    },
+  },
+  {
+    question:
+      'A patient has recently begun taking phenytoin (Dilantin) for a seizure disorder. The nurse notes a reddish-brown color to the patient’s urine. Which action will the nurse take?',
+    choices: {
+      a: 'Ask the provider to order a serum drug level.',
+      b: 'Reassure the patient that this is a harmless side effect.',
+      c: 'Report possible thrombocytopenia to the provider.',
+      d: 'Request an order for a urinalysis and creatinine clearance.',
+    },
+    answer: {
+      b: 'Reddish-brown urine is a harmless side effect of phenytoin. The nurse should  reassure the patient. It is not necessary to order a serum drug level or renal  function studies. It is not a symptom of thrombocytopenia.',
+    },
+  },
+  {
+    question:
+      'A female patient who takes phenytoin for epilepsy becomes pregnant. The nurse will notify the patient’s provider and will anticipate that the provider will take which action?',
+    choices: {
+      a: 'Add valproic acid (Depakote) for improved seizure control.',
+      b: 'Change the medication to phenobarbital (Luminal).',
+      c: 'Closely monitor this patient’s serum phenytoin levels.',
+      d: 'Discontinue all anticonvulsant medications.',
+    },
+    answer: {
+      b: 'Phenytoin has serious teratogenic effects, so women who are pregnant should  not take it. Valproic acid is known to cause major congenital malformations in  infants in 4% to 8% of women who take the drug; it should be avoided also.  Phenobarbital is typically used because possible teratogenic effects are less  pronounced. Teratogenicity increases with multiple anticonvulsants.',
+    },
+  },
+  {
+    question:
+      'The nurse is caring for a patient who has been diagnosed with petit mal seizures. The nurse will anticipate teaching this patient about which antiepileptic medication?',
+    choices: {
+      a: 'Carbamazepine (Tegretol)',
+      b: 'Ethosuximide (Zarontin)',
+      c: 'Phenobarbital (Luminal)',
+      d: 'Phenytoin (Dilantin)',
+    },
+    answer: {
+      b: 'Ethosuximide is used to treat petit mal seizures. The other drugs are not used to  treat petit mal seizures.',
+    },
+  },
+  {
+    question:
+      'An intubated child is brought to the emergency department while having a seizure that has been progressing for 20 minutes. Which drug will the nurse anticipate administering to this patient first?',
+    choices: {
+      a: 'Diazepam (Valium)',
+      b: 'Phenobarbital (Luminal)',
+      c: 'Phenytoin (Dilantin)',
+      d: 'Valproic acid (Depakote)',
+    },
+    answer: {
+      a: 'Diazepam is given to patients in status epilepticus and is administered IV. The  drug has a short-term effect; other antiseizure drugs, such as phenytoin or  phenobarbital, must be given during or immediately after administration of  diazepam. The other anticonvulsant medications do not have a rapid onset and  are not used for emergencies.',
+    },
+  },
+  {
+    question:
+      'The nurse is performing a health history on a patient who is ordered to begin therapy with valproic acid (Depakote) to treat epilepsy. Which aspect of the patient’s medical history will cause the nurse to be concerned?',
+    choices: {
+      a: 'Chronic obstructive pulmonary disease',
+      b: 'Gastrointestinal disease',
+      c: 'Liver disease',
+      d: 'Renal disease',
+    },
+    answer: {
+      c: 'Valproic acid can elevate liver enzymes. Patients with a history of liver disease  should be monitored closely while taking this drug.',
+    },
+  },
+  {
+    question:
+      'A woman who is pregnant is taking an anticonvulsant medication to treat a seizure disorder. The nurse will ensure that the patient takes which dietary supplement toward the end of her pregnancy?',
+    choices: {
+      a: 'Vitamin D',
+      b: 'Iron',
+      c: 'Vitamin C',
+      d: 'Vitamin K',
+    },
+    answer: {
+      d: 'Anticonvulsants act as inhibitors of vitamin K and can contribute to hemorrhage  in infants shortly after birth. Women taking these drugs should receive vitamin K  within the last week to 10 days of their pregnancies.',
+    },
+  },
+  {
+    question:
+      'A parent expresses concern that a 5-year-old child may develop epilepsy because the child experienced a febrile seizure at age 18 months. What will the nurse tell this parent?',
+    choices: {
+      a: '#A child who has had a febrile seizure is considered to have epilepsy.#',
+      b: '#A small percentage of children who have febrile seizures develop epilepsy.#',
+      c: '#I recommend discussing prophylactic anticonvulsant drugs with the provider.#',
+      d: '#Treat fevers aggressively with aspirin and NSAIDs to prevent seizures.#',
+    },
+    answer: {
+      b: 'Epilepsy develops in 2.5% of children who have one or more febrile seizures.  One febrile seizure does not cause a diagnosis of epilepsy. Prophylactic  anticonvulsants are given to high-risk patients. Children should not receive  aspirin for fever because of the risk of Reye’s syndrome.',
+    },
+  },
+  {
+    question:
+      'A 25-year-old female patient will begin taking phenytoin for epilepsy. The patient tells the nurse she is taking oral contraceptives (OCPs). Which response will the nurse give?',
+    choices: {
+      a: '#Continue taking OCPs because phenytoin is not safe during pregnancy.#',
+      b: '#You should use a backup method of contraception along with OCPs.#',
+      c: '#You should stop taking OCPs because of drug-drug interactions with phenytoin.#',
+      d: '#You should take low-dose aspirin while taking these medications to reduce your risk of stroke.#',
+    },
+    answer: {
+      b: 'Female patients who take oral contraceptives and anticonvulsants should be  advised to use a backup method of contraception because of reduced  effectiveness of OCPs. Patients should be cautioned to consult with a provider if  considering pregnancy because of the teratogenic effects of anticonvulsants.  Patients should not stop taking OCPs and do not need to take precautions  against stroke.',
+    },
+  },
+  {
+    question:
+      'The nurse provides teaching for a patient who will begin taking phenytoin. Which statement by the patient indicates understanding of the teaching?',
+    choices: {
+      a: '#If I develop a rash, I should take diphenhydramine to control the itching.#',
+      b: '#If I experience bleeding gums, I should stop taking the medication immediately.#',
+      c: '#I may develop diabetes while I am taking this medication.#',
+      d: '#I should not be alarmed if my urine turns reddish-brown.#',
+    },
+    answer: {
+      d: 'Phenytoin will cause reddish-brown colored urine. Patients should be counseled  to report a rash to the provider because it could be a serious adverse reaction.  Bleeding gums are common, but patients should never stop taking  anticonvulsants abruptly, or they may develop seizures. Changes in blood  glucose may occur but do not necessarily result in diabetes.',
+    },
+  },
+  {
+    question:
+      'A parent of a child who has been taking valproic acid (Depakote) for several years calls the clinic to report a recent recurrence of seizures and states that the child is having three or four seizures per week. The nurse will perform which action first?',
+    choices: {
+      a: 'Ask the parent about to describe the child’s drug regimen.',
+      b: 'Request an order for a serum valproic acid level.',
+      c: 'Suggest that the parent take the child to the emergency department.',
+      d: 'Tell the parent that the provider will increase the child’s dose of Depakote.',
+    },
+    answer: {
+      a: 'Questions pertaining to medication adherence are a no-cost, non-invasive way of  troubleshooting cause of decreased drug effect. The serum drug level will be  assessed next. Children may need changes in doses as they grow. The child is  not in status epilepticus so does not need to go to the emergency department.  The dose will not be increased until the serum drug level is known.',
+    },
+  },
+  {
+    question:
+      'A patient arrives in the emergency department with dehydration. The patient reports taking fluphenazine (Prolixin) to treat schizophrenia. The nurse notes rigid muscles and an altered mental status. The patient has a temperature of 103.6° F, a heart rate of 98 beats per minute, and a blood pressure of 90/58 mm Hg. The nurse will anticipate administering which medication?',
+    choices: {
+      a: 'Dantrolene (Dantrium)',
+      b: 'Haloperidol (Haldol)',
+      c: 'Propranolol (Inderal)',
+      d: 'Tetrabenazine (Xenazine)',
+    },
+    answer: {
+      a: 'The patient is exhibiting signs of neuroleptic malignant syndrome. Muscle  relaxants, such as dantrolene, are usually given. Haloperidol is used to treat  psychosis. Propranolol is used for treating akathisia. Tetrabenazine is sometimes  used to treat symptoms of tardive dyskinesia.',
+    },
+  },
+  {
+    question:
+      'The parent of a young adult who has schizophrenia is concerned that the patient spits out pills that are given. The nurse will suggest contacting the patient’s provider to discuss which intervention?',
+    choices: {
+      a: 'Changing to a liquid form of the mediation',
+      b: 'Providing a home health nurse to supervise medication administration',
+      c: 'Teaching the patient the importance of taking the medication',
+      d: 'Weekly intramuscular injections of the medication',
+    },
+    answer: {
+      a: 'Noncompliance is common with antipsychotic medications. If patients spit out or  hide pills, a liquid form can be used. A home health nurse is costly and  unnecessary. Teaching the patient the importance of the medication is essential,  but not always effective if the patient does not want to comply. Weekly  intramuscular injections may be used if using the liquid form is not effective.',
+    },
+  },
+  {
+    question:
+      'The nurse is preparing to administer intramuscular haloperidol (Haldol) to a patient who has schizophrenia. What action will the nurse perform?',
+    choices: {
+      a: 'Massage the site after injecting the medication to ensure complete absorption.',
+      b: 'Teach the patient to return every week to receive medication doses.',
+      c: 'Use a small-bore needle when injecting the medication.',
+      d: 'Use the Z-track method and inject the medication into deep muscle tissue.',
+    },
+    answer: {
+      d: 'Haloperidol is a viscous liquid and should be injected deep into muscle tissue  using a Z-track method. The injection site should not be massaged. Injections of  long-term preparations of haloperidol are given every 2 to 4 weeks. Nurses  should use a large-bore needle when injecting haloperidol.',
+    },
+  },
+  {
+    question:
+      'The nurse is teaching a patient who will be discharged home on a typical antipsychotic medication to treat schizophrenia. Which statement by the patient indicates a need for further teaching?',
+    choices: {
+      a: '#I should not drink alcohol while taking this medication.#',
+      b: '#I should use a heating pad to treat muscle spasms while taking this medication.#',
+      c: '#I should use sunscreen while taking this medication.#',
+      d: '#I will need frequent blood tests while taking this medication.#',
+    },
+    answer: {
+      b: 'Dystonia can cause muscle spasms and should be reported to the provider, who  can prescribe medications to treat this adverse effect. Patients should not drink  alcohol, should use sunscreen, and will need close monitoring of lab values while  taking these medications.',
+    },
+  },
+  {
+    question:
+      'The nurse is performing a medication history on a patient who reports taking lorazepam (Ativan) for the past 6 months to treat an anxiety disorder. The patient states that the medication is not working as well as previously. The nurse will',
+    choices: {
+      a: 'contact the provider to discuss changing to another benzodiazepine.',
+      b: 'notify the provider and discuss increasing the dose of lorazepam.',
+      c: 'suspect worsening of the anxiety disorder.',
+      d: 'understand that the patient has developed tolerance to this drug.',
+    },
+    answer: {
+      d: 'It is recommended that benzodiazepines be prescribed no longer than 3 or 4  months since the effectiveness lessens after 4 months as patients develop  tolerance to the drug. Changing to another benzodiazepine will not change this.  Increasing the dose is not indicated. This does not indicate worsening of the  underlying disorder.',
+    },
+  },
+  {
+    question:
+      'A patient is brought to the emergency department with decreased respirations and somnolence. The nurse notes a heart rate of 60 beats per minute and a blood pressure of 80/58 mm Hg. The patient is known to take alprazolam (Xanax) to treat anxiety. Which medication will the nurse anticipate the provider to order?',
+    choices: {
+      a: 'Benztropine (Cogentin)',
+      b: 'Flumazenil (Romazicon)',
+      c: 'Lorazepam (Ativan)',
+      d: 'Propranolol (Inderal)',
+    },
+    answer: {
+      b: 'Flumazenil is the recommended benzodiazepine antagonist to treat overdose of  benzodiazepines. This patient is unconscious and has bradycardia and  hypotension, so the antagonist medication is indicated. Benztropine is an  anticholinergic used to treat acute dystonia in patients taking phenothiazines.  Lorazepam is a benzodiazepine and would only intensify the symptoms.  Propranolol is a beta blocker used to treat akathisia in patients taking  phenothiazines.',
+    },
+  },
+  {
+    question:
+      'A patient arrives in the emergency department complaining of difficulty breathing, dizziness, sweating, and heart palpitations. The patient reports having had similar episodes previously. The nurse will expect the provider to order which medication?',
+    choices: {
+      a: 'Flumazenil (Romazicon)',
+      b: 'Haloperidol (Haldol)',
+      c: 'Lorazepam (Ativan)',
+      d: 'Propranolol (Inderal)',
+    },
+    answer: {
+      c: 'The patient is exhibiting signs of acute anxiety, so the anxiolytic lorazepam will  be given. Flumazenil is a benzodiazepine antagonist, given for overdose of  benzodiazepines. Haloperidol is given for acute psychosis. Propranolol is a beta  blocker, used to treat akathisia in patients taking phenothiazines.',
+    },
+  },
+  {
+    question:
+      'The nurse is teaching a patient about taking an anxiolytic agent to treat grief-related anxiety. Which statement by the patient indicates understanding of the teaching?',
+    choices: {
+      a: '#I may have wine with dinner to help with relaxation.#',
+      b: '#I may need to take this medication for up to a year.#',
+      c: '#I may stop taking the medication when my symptoms go away.#',
+      d: '#I should try psychotherapy or a support group in addition to the medication.#',
+    },
+    answer: {
+      d: 'Psychotherapy or support groups should be part of therapy, with anxiolytics  added as needed. Patients taking anxiolytic medications should not consume  alcohol. Anxiolytic medications are generally given for a maximum of 3 to 4  months. Patients should not stop the medications abruptly.',
+    },
+  },
+  {
+    question:
+      'The nurse is teaching a patient who will begin taking doxepin (Sinequan) to treat depression. Which statement by the patient indicates a need for further teaching?',
+    choices: {
+      a: '#I should expect results within 2 to 4 weeks.#',
+      b: '#I should increase fluids and fiber while taking this medication.#',
+      c: '#I should take care when rising from a sitting to standing position.#',
+      d: '#I will take the medication in the morning before breakfast.#',
+    },
+    answer: {
+      d: 'Tricyclic antidepressants (TCAs) should begin to show effects within 1 to 4  weeks. Tricyclic antidepressants are known to cause orthostatic hypotension and  constipation, so patients should be counseled on how to minimize these effects.  TCAs should be taken at bedtime because of their tendency to cause  drowsiness.',
+    },
+  },
+  {
+    question:
+      'A patient who has had a loss of interest in most activities, weight loss, and insomnia is diagnosed with a major depressive disorder and will begin taking fluoxetine (Prozac) daily. The patient asks about the weekly dosing that a family member follows. What will the nurse tell the patient about a weekly dosing regimen?',
+    choices: {
+      a: 'It can be used after daily maintenance dosing proves effective and safe.',
+      b: 'It is used after a trial of tricyclic antidepressant medication fails.',
+      c: 'It is not effective for this type of depression and its symptoms.',
+      d: 'It will cause more adverse effects than daily dosing regimens.',
+    },
+    answer: {
+      a: 'Before weekly dosing is begun, the patient should respond to a daily  maintenance dose of 20 mg/day without serious effects. It is not necessary to  undergo a trial of tricyclic antidepressants (TCAs). Weekly dosing is used for this  type of depression, and although it may have some adverse effects, these are  not more common than with daily dosing.',
+    },
+  },
+  {
+    question:
+      'A patient has been taking sertraline (Zoloft) 20 mg/mL oral concentrate, 1 mL daily for several weeks and reports being unable to sleep well. What will the nurse do next?',
+    choices: {
+      a: 'Ask the patient what time of day the medication is taken.',
+      b: 'Counsel the patient to take the medication at bedtime.',
+      c: 'Recommend asking the provider about weekly dosing.',
+      d: 'Suggest that the patient request a lower dose.',
+    },
+    answer: {
+      a: 'Selective serotonin reuptake inhibitors (SSRIs) cause nervousness and  insomnia. Patients can minimize these effects by taking the drug in the morning.  The nurse should assess this with this patient. Taking the medication at bedtime  will only increase the insomnia. Requesting a lower dose or changing to weekly  dosing is not recommended.',
+    },
+  },
+  {
+    question:
+      'A patient has been taking paroxetine (Paxil) 20 mg per day for 2 weeks and reports headaches, nervousness, and poor appetite. Which action will the nurse take?',
+    choices: {
+      a: 'Counsel the patient to take the medication with food.',
+      b: 'Reassure the patient that these side effects will decrease over time.',
+      c: 'Suggest that the patient discuss a lower dose with the provider.',
+      d: 'Tell the patient to stop taking the drug and contact the provider.',
+    },
+    answer: {
+      b: 'These are common side effects of SSRIs and will subside over time. Taking the  medication with food will not affect these side effects. Lowering the dose is not  indicated. Patients should not abruptly stop taking SSRIs.',
+    },
+  },
+  {
+    question:
+      'A patient who has been taking a monoamine oxidase (MAO) inhibitor for several months will begin taking amoxapine (Asendin) instead of the MAO inhibitor. The nurse will counsel the patient to begin taking the amoxapine',
+    choices: {
+      a: 'along with the MAO inhibitor for several months.',
+      b: 'at least 14 days after discontinuing the MAO inhibitor.',
+      c: 'the day after the last dose of the MAO inhibitor.',
+      d: 'while withdrawing the MAO inhibitor over several weeks.',
+    },
+    answer: {
+      b: 'Amoxapine is an atypical antidepressant that should not be taken with MAO  inhibitors and should not be used within 14 days of taking an MAO inhibitor.',
+    },
+  },
+  {
+    question:
+      'A patient who has been diagnosed with depression asks why the provider has not ordered a monoamine oxidase (MAO) inhibitor to treat the disorder. The nurse will explain to the patient that MAO inhibitors',
+    choices: {
+      a: 'are more expensive than other antidepressants.',
+      b: 'are no longer approved for treating depression.',
+      c: 'can cause profound hypotension.',
+      d: 'require strict dietary restrictions.',
+    },
+    answer: {
+      d: 'MAO inhibitors have many food and drug interactions that can be fatal, and  patients must adhere to strict dietary restrictions while taking these drugs. They are not more expensive than the newer antidepressants. They remain approved  for treating depression. MAO inhibitors cause profound hypertension.',
+    },
+  },
+  {
+    question:
+      'A patient who takes a monoamine oxidase (MAO) inhibitor asks the nurse about taking over-the-counter medications to treat cold symptoms. Which medication will the nurse counsel the patient to avoid while taking an MAO inhibitor?',
+    choices: {
+      a: 'Diphenhydramine',
+      b: 'Guaifenesin',
+      c: 'Pseudoephedrine',
+      d: 'Saline nasal spray',
+    },
+    answer: {
+      c: 'MAO inhibitors can cause hypertensive crises, which can be fatal when taken  with sympathomimetic drugs such as pseudoephedrine.',
+    },
+  },
+  {
+    question:
+      'A patient who has a major depressive disorder has been taking fluoxetine (Prozac) 20 mg daily for 3 months and reports improved mood, less fatigue, and an increased ability to concentrate. The patient’s side effects have diminished. What will the nurse counsel this patient to discuss with the provider?',
+    choices: {
+      a: 'Changing to once-weekly dosing',
+      b: 'Decreasing the dose to 10 mg daily',
+      c: 'Discontinuing the medication',
+      d: 'Increasing the dose to 30 mg daily',
+    },
+    answer: {
+      a: 'Once patients have demonstrated control of symptoms with decreased side  effects on the maintenance dose of 20 mg daily, patients may begin once-weekly  dosing. The 20-mg dose is maintenance dosing, so decreasing or increasing the  dose is not indicated. Patients should not stop taking the medication abruptly.',
+    },
+  },
+  {
+    question:
+      'The nurse is preparing to administer a dose of lithium (Lithobid) to a patient who has been taking the drug as maintenance therapy to treat bipolar disorder. The nurse assesses the patient and notes tremors and confusion. The patient’s latest serum lithium level was 2 mEq/L. Which action will the nurse take?',
+    choices: {
+      a: 'Administer the dose.',
+      b: 'Hold the dose and notify the provider.',
+      c: 'Request an order for a higher dose.',
+      d: 'Request an order for a lower dose.',
+    },
+    answer: {
+      b: 'The patient has symptoms of lithium toxicity, and the serum drug level is in toxic  range. The nurse should hold the dose and notify the provider.',
+    },
+  },
+  {
+    question:
+      'The nurse assesses a patient who is taking lithium (Lithobid) and notes a large output of clear, dilute urine. The nurse suspects which cause for this finding?',
+    choices: {
+      a: 'Cardiovascular complications',
+      b: 'Expected lithium side effects',
+      c: 'Increased mania',
+      d: 'Lithium toxicity',
+    },
+    answer: {
+      d: 'An increased output of dilute urine is a sign of lithium toxicity.',
+    },
+  },
+  {
+    question:
+      'The nurse provides teaching for a patient who will begin taking lithium (Lithobid). Which statement by the patient indicates understanding of the teaching?',
+    choices: {
+      a: '#I may drink tea or cola but not coffee.#',
+      b: '#I may stop taking the drug when mania symptoms subside.#',
+      c: '#I should consume a sodium-restricted diet.#',
+      d: '#I should drink 2 to 3 liters of fluid each day.#',
+    },
+    answer: {
+      d: 'Patients taking lithium should be encouraged to maintain adequate fluid intake of  2 to 3 L/day initially and then 1 to 2 L/day as maintenance. Patients should not  drink any caffeine-containing drinks, including tea and cola. Patients must  continue taking lithium even when symptoms subside, or else symptoms will  recur. It is not necessary to consume a sodium-restricted diet.',
+    },
+  },
+  {
+    question:
+      'A patient who has recently begun taking lithium (Lithobid) calls the clinic to report nausea, vomiting, anorexia, and drowsiness. What will the nurse do next?',
+    choices: {
+      a: 'Contact the provider to obtain an order for a serum lithium level.',
+      b: 'Reassure the patient that these symptoms are common and transient.',
+      c: 'Tell the patient that the lithium dose is probably too low.',
+      d: 'Tell the patient to stop taking the medication immediately.',
+    },
+    answer: {
+      a: 'Early symptoms of lithium toxicity include nausea, vomiting, anorexia, and  drowsiness. The nurse should obtain an order for a lithium level to evaluate this.  Patients should be encouraged to report these symptoms if they occur. Patients should never be counseled to stop the medication abruptly.',
+    },
+  },
+  {
+    question:
+      'A patient who has a history of migraine headaches is diagnosed with bipolar disorder. The nurse might expect the provider to order which medication for this patient?',
+    choices: {
+      a: 'Carbamazepine (Tegretol)',
+      b: 'Divalproex (Valproate)',
+      c: 'Lamotrigine (Lamictal)',
+      d: 'Lithium citrate (Eskalith)',
+    },
+    answer: {
+      b: 'All of these medications may be used to treat bipolar disorder, but divalproex is  also indicated for migraine prophylaxis.',
     },
   },
 ];

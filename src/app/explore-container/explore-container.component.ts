@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { AlertController } from '@ionic/angular';
-import { qAndA } from './explore-container-utils';
+import { Unit1, Unit2, Unit3 } from './explore-container-utils';
 
 interface Question {
   question: string;
@@ -14,41 +14,48 @@ interface Question {
   styleUrls: ['./explore-container.component.scss'],
 })
 export class ExploreContainerComponent implements OnInit {
-  @Input() currentQuestion: Question;
   @Input() practice: boolean = true;
+  @Input() unit = 'one';
 
+  unitMap = {
+    one: Unit1,
+    two: Unit2,
+    three: Unit3,
+  };
+
+  currentQuestion: Question;
   correctQuestions = new Set<Question>();
-  doneQuestions = new Set<number>();
-  qAndA: Array<Question>;
-  grade: number = 100;
+  shownQuestions = new Set<Question>();
+  questions: Array<Question>;
+  grade = 100;
+  done = false;
 
   constructor(public alertController: AlertController) {}
 
-  getRandomInt(max) {
-    let random = Math.floor(Math.random() * max);
-    let count = 0;
-    while (this.doneQuestions.has(random) && count < this.qAndA.length) {
-      random = Math.floor(Math.random() * max);
-      count++;
-    }
-    this.doneQuestions.add(random);
-    return random;
+  getRandomQuestion(max: number): Question {
+    return this.questions[Math.floor(Math.random() * max)];
   }
 
-  getRandomQuestion() {
-    let random = this.getRandomInt(this.qAndA.length);
-    this.currentQuestion = this.qAndA[random];
+  getNewQuestion(): Question {
+    if (this.shownQuestions.size < this.questions.length) {
+      let randomQuestion = this.getRandomQuestion(this.questions.length);
+      while (this.shownQuestions.has(randomQuestion)) {
+        randomQuestion = this.getRandomQuestion(this.questions.length);
+      }
+      this.shownQuestions.add(randomQuestion);
+      return randomQuestion;
+    } else {
+      this.done = true;
+      return this.currentQuestion;
+    }
   }
 
   restartQuestions() {
     this.grade = 100;
+    this.done = false;
     this.correctQuestions = new Set<Question>();
-    this.doneQuestions = new Set<number>();
-    this.getRandomQuestion();
-  }
-
-  correctAnswer() {
-    console.log('correct');
+    this.shownQuestions = new Set<Question>();
+    this.currentQuestion = this.getNewQuestion();
   }
 
   checkAnswer() {
@@ -57,7 +64,7 @@ export class ExploreContainerComponent implements OnInit {
     if (this.currentQuestion.answer.hasOwnProperty(choice)) {
       this.correctQuestions.add(this.currentQuestion);
       this.grade = Math.floor(
-        this.correctQuestions.size / this.doneQuestions.size
+        this.correctQuestions.size / this.shownQuestions.size
       );
       isCorrect = true;
     } else if (this.correctQuestions.has(this.currentQuestion)) {
@@ -65,7 +72,7 @@ export class ExploreContainerComponent implements OnInit {
     }
 
     this.grade = Math.floor(
-      (this.correctQuestions.size / this.doneQuestions.size) * 100
+      (this.correctQuestions.size / this.shownQuestions.size) * 100
     );
     return isCorrect;
   }
@@ -91,7 +98,7 @@ export class ExploreContainerComponent implements OnInit {
 
   nextQuestion() {
     this.checkAnswer();
-    this.getRandomQuestion();
+    this.currentQuestion = this.getNewQuestion();
   }
 
   toggleMode() {
@@ -99,7 +106,9 @@ export class ExploreContainerComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.qAndA = [...qAndA];
-    this.getRandomQuestion();
+    this.unit === 'all'
+      ? (this.questions = [...Unit1, ...Unit2, ...Unit3])
+      : (this.questions = [...this.unitMap[this.unit]]);
+    this.currentQuestion = this.getNewQuestion();
   }
 }
