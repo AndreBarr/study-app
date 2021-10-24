@@ -29,10 +29,10 @@ export const Unit1 = [
     question:
       'The nurse is teaching a patient who will be discharged home with a prescription for an enteric-coated tablet. Which statement by the patient indicates understanding of the teaching? ',
     choices: {
-      a: '"I may crush the tablet and put it in applesauce to improve absorption."',
-      b: '"I should consume acidic foods to enhance absorption of this medication."',
-      c: '"I should expect a delay in onset of the drug’s effects after taking the tablet."',
-      d: '"I should take this medication with high-fat foods to improve its action."',
+      a: 'I may crush the tablet and put it in applesauce to improve absorption.',
+      b: 'I should consume acidic foods to enhance absorption of this medication.',
+      c: 'I should expect a delay in onset of the drug’s effects after taking the tablet.',
+      d: 'I should take this medication with high-fat foods to improve its action.',
     },
     answer: {
       c: 'Enteric-coated tablets resist disintegration in the acidic environment of the stomach and disintegrate when they reach the small intestine. There is usually some delay in onset of actions after taking these medications. Enteric-coated tablets should not be crushed or chewed, which would alter the time and location of absorption. Acidic foods will not enhance the absorption of the medication. The patient should not eat high-fat food before ingesting an enteric-coated tablet because high-fat foods decrease the absorption rate.',
@@ -94,10 +94,10 @@ export const Unit1 = [
     question:
       'The nurse is reviewing medication information with a nursing student prior to administering an oral drug and notes that the drug has extensive first-pass effects. Which statement by the student indicates a need for further teaching about this medication? ',
     choices: {
-      a: '"The first-pass effect means the drug may be absorbed into systemic circulation from the intestinal lumen."',
-      b: '"The first-pass effect means the drug may be changed to an inactive form and excreted."',
-      c: '"The first-pass effect means the drug may be changed to a metabolite, which may be more active than the original."',
-      d: '"The first-pass effect means the drug may be unchanged as it passes through the liver."',
+      a: 'The first-pass effect means the drug may be absorbed into systemic circulation from the intestinal lumen.',
+      b: 'The first-pass effect means the drug may be changed to an inactive form and excreted.',
+      c: 'The first-pass effect means the drug may be changed to a metabolite, which may be more active than the original.',
+      d: 'The first-pass effect means the drug may be unchanged as it passes through the liver.',
     },
     answer: {
       b: 'Drugs that undergo first-pass metabolism are absorbed into the portal vein from the intestinal lumen and go through the liver, where they are either unchanged or are metabolized to an inactive or a more active form.',
@@ -258,10 +258,10 @@ export const Unit1 = [
     question:
       'The nurse is explaining to the patient why a nonspecific drug has so many side effects. Which statement by the patient indicates a need for further teaching? ',
     choices: {
-      a: '"Non-specific drugs can affect specific receptor types in different body tissues."',
-      b: '"Non-specific drugs can affect a variety of receptor types in similar body tissues."',
-      c: '"Non-specific drugs can affect hormone secretion as well as cellular functions."',
-      d: '"Non-specific drugs require higher doses than specific drugs to be effective."',
+      a: 'Non-specific drugs can affect specific receptor types in different body tissues.',
+      b: 'Non-specific drugs can affect a variety of receptor types in similar body tissues.',
+      c: 'Non-specific drugs can affect hormone secretion as well as cellular functions.',
+      d: 'Non-specific drugs require higher doses than specific drugs to be effective.',
     },
     answer: {
       b: 'Non-specific drugs can act on one type of receptor but in different body tissues, or a variety of receptor types, or act on hormones to produce effects. Non specific drugs do not require higher doses.',
@@ -321,10 +321,10 @@ export const Unit1 = [
     question:
       'The nurse is teaching a patient who will begin taking ciprofloxacin. What instruction will the nurse include when teaching this patient about this drug? ',
     choices: {
-      a: '"Do not take this medication with oral contraceptive pills."',
-      b: '"Take at least 1 hour after or 2 hours before taking antacids."',
-      c: '"Take in the morning with your multivitamin tablet."',
-      d: '"Take with milk to reduce gastric upset."',
+      a: 'Do not take this medication with oral contraceptive pills.',
+      b: 'Take at least 1 hour after or 2 hours before taking antacids.',
+      c: 'Take in the morning with your multivitamin tablet.',
+      d: 'Take with milk to reduce gastric upset.',
     },
     answer: {
       b: 'Dairy products, multivitamins, and antacids should be avoided 1 hour after and 2 hours before taking ciprofloxacin because these products contain divalent cations that form a drug complex that prevents absorption of the ciprofloxacin.',
@@ -490,10 +490,10 @@ export const Unit1 = [
     question:
       'The nurse is teaching a patient about a drug that causes photosensitivity. Which statement by the patient indicates a need for further teaching? ',
     choices: {
-      a: '"I should apply sunscreen with a sun protection factor greater than 15."',
-      b: '"I should avoid sunlight when possible while taking this drug."',
-      c: '"I will wear protective clothing when I am outdoors."',
-      d: '"I will wear sunglasses even while I am indoors."',
+      a: 'I should apply sunscreen with a sun protection factor greater than 15.',
+      b: 'I should avoid sunlight when possible while taking this drug.',
+      c: 'I will wear protective clothing when I am outdoors.',
+      d: 'I will wear sunglasses even while I am indoors.',
     },
     answer: {
       d: 'Drugs that cause photosensitivity make sunburn more likely, so patients should stay out of the sun, wear protective clothing, and use sunscreen with an SPF greater than 15. It is not necessary to wear sunglasses indoors.',
@@ -516,10 +516,10 @@ export const Unit1 = [
     question:
       'The nurse is educating the parent of a 20-month-old toddler about OTC products to treat cold symptoms. Which statement by the parent indicates understanding of the teaching? ',
     choices: {
-      a: '"I should check with the provider for proper dosing instructions."',
-      b: '"OTC medications are less potent and have minimal side effects."',
-      c: '"OTC medications can be given to children younger than 2 years old."',
-      d: '"Using OTC medications may prevent accurate diagnosis of respiratory illness."',
+      a: 'I should check with the provider for proper dosing instructions.',
+      b: 'OTC medications are less potent and have minimal side effects.',
+      c: 'OTC medications can be given to children younger than 2 years old.',
+      d: 'Using OTC medications may prevent accurate diagnosis of respiratory illness.',
     },
     answer: {
       d: 'OTC cold medications can mask symptoms and prevent accurate diagnosis of potentially serious illnesses. Their use in children is not recommended.',
@@ -900,10 +900,10 @@ export const Unit1 = [
     question:
       'An adolescent patient who has acne is given a regimen of topical medications and an oral antibiotic that generally clears up lesions to fewer than 10 within 6 to 8 weeks. At a 2-month follow-up, the patient continues to have more than 25 lesions. The child’s parent affirms that the child is using the medications as prescribed. Which evaluation statement is correct for this patient?',
     choices: {
-      a: '"Goal of fewer than 10 lesions in 6 to 8 weeks is not met."',
-      b: '"Goal that the medication will be effective is not met."',
-      c: '"Goal that the patient will take medications as prescribed is not met."',
-      d: '"Goal that the patient understands the medication regimen is not met."',
+      a: 'Goal of fewer than 10 lesions in 6 to 8 weeks is not met.',
+      b: 'Goal that the medication will be effective is not met.',
+      c: 'Goal that the patient will take medications as prescribed is not met.',
+      d: 'Goal that the patient understands the medication regimen is not met.',
     },
     answer: {
       a: 'All indications are that this patient is taking the medications and they are not effective. The first statement is correct because it identifies a measurable goal and a specific time frame.',
@@ -955,7 +955,7 @@ export const Unit1 = [
       a: 'Ask the provider to verify how many mg per kg per dose and how frequently to give the medication.',
       b: 'Look up the protocol in the unit manual and write the drug order for the provider to sign.',
       c: 'Provide the child’s weight to the hospital pharmacist to write the order based on the protocol.',
-      d: 'Transcribe the verbal order to the order sheet as "give PO acetaminophen for a fever greater than 101° F per protocol."',
+      d: 'Transcribe the verbal order to the order sheet as "give PO acetaminophen for a fever greater than 101° F per protocol.',
     },
     answer: {
       a: 'The components of a drug order include drug name, dose, route, frequency, and any instructions for dosing. A nurse receiving a telephone order should “read back” the order from the provider that includes this information. The provider, and not the nurse or the pharmacist, is responsible for writing the order with all components.',
@@ -1056,10 +1056,10 @@ export const Unit1 = [
     question:
       'The nurse is caring for a patient who will begin taking a thiazide diuretic to treat hypertension. The patient says, "I know this will lower my blood pressure, but how does it work?" How will the nurse respond? ',
     choices: {
-      a: '"It can cause orthostatic hypotension, so be careful."',
-      b: '"It reduces the volume of fluid in your blood stream to lower blood pressure."',
-      c: '"The actions are complicated, but it’s an effective drug."',
-      d: '"Your provider should explain this medication to you."',
+      a: 'It can cause orthostatic hypotension, so be careful.',
+      b: 'It reduces the volume of fluid in your blood stream to lower blood pressure.',
+      c: 'The actions are complicated, but it’s an effective drug.',
+      d: 'Your provider should explain this medication to you.',
     },
     answer: {
       b: 'Patients have a right to understand how the drugs they are taking work and to know about side effects. The nurse should explain how the medication can cause orthostatic hypotension after addressing the patient’s current question. Telling the patient that the drug actions are complicated is disrespectful. Nurses are responsible for educating patients about medications.',
@@ -1161,10 +1161,10 @@ export const Unit2 = [
     question:
       'A patient reports difficulty falling asleep most nights and is constantly fatigued. The patient does not want to take medications to help with sleep. What non-pharmacologic measure will the nurse recommend?',
     choices: {
-      a: '"Exercise in the evening to promote bedtime fatigue."',
-      b: '"Get out of bed at the same time each morning."',
-      c: '"Have a glass of wine at bedtime to help you relax."',
-      d: '"Take daytime naps to minimize daytime fatigue."',
+      a: 'Exercise in the evening to promote bedtime fatigue.',
+      b: 'Get out of bed at the same time each morning.',
+      c: 'Have a glass of wine at bedtime to help you relax.',
+      d: 'Take daytime naps to minimize daytime fatigue.',
     },
     answer: {
       b: 'To promote sleep, patients should be advised to arise at the same time each morning to establish a routine. Patients should avoid strenuous exercise before bedtime. Patients should not consume alcohol 6 hours before bedtime. Patients should not take daytime naps.',
@@ -1213,10 +1213,10 @@ export const Unit2 = [
     question:
       'The nurse is providing teaching for a patient who will begin taking zolpidem tartrate (Ambien) 10 mg at bedtime as a sleep aid. Which statement by the patient indicates understanding of the teaching?',
     choices: {
-      a: '"I should take this medication with food to avoid stomach upset."',
-      b: '"I will take this medication within 30 minutes of bedtime."',
-      c: '"If this medication is not effective, I may increase the dose to 15 mg."',
-      d: '"Tolerance and drug dependence do not occur with this medication."',
+      a: 'I should take this medication with food to avoid stomach upset.',
+      b: 'I will take this medication within 30 minutes of bedtime.',
+      c: 'If this medication is not effective, I may increase the dose to 15 mg.',
+      d: 'Tolerance and drug dependence do not occur with this medication.',
     },
     answer: {
       b: 'Zolpidem is a non-benzodiazepine sleep aid. It should be taken 30 minutes before desired sleep. Food decreases the absorption, so it should be taken on an empty stomach. The maximum dose is 10 mg. Tolerance and dependence may occur.',
@@ -1382,10 +1382,10 @@ export const Unit2 = [
     question:
       'The nurse is teaching a patient about using high-dose aspirin to treat arthritis. What information will the nurse include when teaching this patient?',
     choices: {
-      a: '"A normal serum aspirin level is between 30 and 40 mg/dL."',
-      b: '"You may need to stop taking this drug a week prior to surgery."',
-      c: '"You will need to monitor aspirin levels if you are also taking warfarin."',
-      d: '"Your stools may become dark, but this is a harmless side effect."',
+      a: 'A normal serum aspirin level is between 30 and 40 mg/dL.',
+      b: 'You may need to stop taking this drug a week prior to surgery.',
+      c: 'You will need to monitor aspirin levels if you are also taking warfarin.',
+      d: 'Your stools may become dark, but this is a harmless side effect.',
     },
     answer: {
       b: 'Aspirin should be discontinued prior to surgery to avoid prolonged bleeding time. A normal serum level is 15 to 30 mg/dL. Patients taking warfarin and aspirin will have increased amounts of warfarin, so the INR will need to be monitored. Tarry stools are a symptom of gastrointestinal bleeding and should be reported.',
@@ -1421,10 +1421,10 @@ export const Unit2 = [
     question:
       'A patient who has osteoarthritis with mild to moderate pain asks the nurse about taking over-the-counter ibuprofen (Motrin). What will the nurse tell this patient?',
     choices: {
-      a: '"It may take several weeks to achieve therapeutic effects."',
-      b: '"Unlike aspirin, there is no increased risk of bleeding with ibuprofen."',
-      c: '"Take ibuprofen twice daily for maximum analgesic benefit."',
-      d: '"Combine ibuprofen with acetaminophen for best effect."',
+      a: 'It may take several weeks to achieve therapeutic effects.',
+      b: 'Unlike aspirin, there is no increased risk of bleeding with ibuprofen.',
+      c: 'Take ibuprofen twice daily for maximum analgesic benefit.',
+      d: 'Combine ibuprofen with acetaminophen for best effect.',
     },
     answer: {
       a: 'OTC NSAIDs can be effective for mild to moderate arthritis pain, but the effects may not appear for several weeks. NSAIDs carry a risk for bleeding. Ibuprofen is taken TID or QID. Ibuprofen should not be combined with aspirin or acetaminophen.',
@@ -1473,10 +1473,10 @@ export const Unit2 = [
     question:
       'The nurse provides teaching for a patient who will begin taking allopurinol. Which statement by the patient indicates understanding of the teaching?',
     choices: {
-      a: '"I should increase my vitamin C intake."',
-      b: '"I will get yearly eye exams."',
-      c: '"I will increase my protein intake."',
-      d: '"I will limit fluids to prevent edema."',
+      a: 'I should increase my vitamin C intake.',
+      b: 'I will get yearly eye exams.',
+      c: 'I will increase my protein intake.',
+      d: 'I will limit fluids to prevent edema.',
     },
     answer: {
       b: 'Patients taking allopurinol can have visual changes with prolonged use and should have yearly eye exams. It is not necessary to increase vitamin C. Protein can increase purine intake, which is not recommended. Patients should consume extra fluids.',
@@ -1499,10 +1499,10 @@ export const Unit2 = [
     question:
       'The nurse is teaching a female patient who will begin taking 2 tablets of 325 mg acetaminophen every 4 to 6 hours as needed for pain. Which statement by the patient indicates understanding of the teaching?',
     choices: {
-      a: '"I may take acetaminophen up to 6 times daily if needed."',
-      b: '"I should increase the dose of acetaminophen if I drink caffeinated coffee."',
-      c: '"If I take oral contraceptive pills, I should use back-up contraception."',
-      d: '"It is safe to take acetaminophen with any over-the-counter medications."',
+      a: 'I may take acetaminophen up to 6 times daily if needed.',
+      b: 'I should increase the dose of acetaminophen if I drink caffeinated coffee.',
+      c: 'If I take oral contraceptive pills, I should use back-up contraception.',
+      d: 'It is safe to take acetaminophen with any over-the-counter medications.',
     },
     answer: {
       a: 'The maximum daily dose of acetaminophen is 4000 mg. If this patient takes 650 mg/dose 6 times daily, this amount is safe. Taking acetaminophen with caffeine increases the effect of the acetaminophen. Taking acetaminophen with OCPs decreases the effect of the acetaminophen but does not diminish the effect of the OCP. Many over-the-counter medications contain acetaminophen, so patients should be advised to read labels carefully to avoid overdose.',
@@ -1551,10 +1551,10 @@ export const Unit2 = [
     question:
       'The nurse is providing teaching to a patient who will begin taking aspirin to treat arthritis pain. Which statement by the patient indicates a need for further teaching?',
     choices: {
-      a: '"I should increase fiber and fluids while taking aspirin."',
-      b: '"I will call my provider if I have abdominal pain."',
-      c: '"I will drink a full glass of water with each dose."',
-      d: '"I will notify my provider of ringing in my ears."',
+      a: 'I should increase fiber and fluids while taking aspirin.',
+      b: 'I will call my provider if I have abdominal pain.',
+      c: 'I will drink a full glass of water with each dose.',
+      d: 'I will notify my provider of ringing in my ears.',
     },
     answer: {
       a: 'Aspirin is not constipating, so patients do not need to be counseled to consume extra fluids and fiber. Abdominal pain can occur with gastrointestinal bleeding, and tinnitus (ringing in the ears) can be an early sign of toxicity, so patients should be taught to contact their provider if these occur. Taking a full glass of water with each dose helps minimize gastrointestinal side effects.',
@@ -1697,10 +1697,10 @@ export const Unit3 = [
     question:
       'The nurse is teaching a child and a parent about taking methylphenidate (Ritalin) to treat attention-deficit/hyperactivity disorder (ADHD). Which statement by the parent indicates understanding of the teaching?',
     choices: {
-      a: '#I should give this drug to my child at bedtime.#',
-      b: '#My child should avoid products containing caffeine.#',
-      c: '#The drug should be stopped immediately if my child develops aggression.#',
-      d: '#We should monitor my child’s weight since weight gain is common.#',
+      a: 'I should give this drug to my child at bedtime.',
+      b: 'My child should avoid products containing caffeine.',
+      c: 'The drug should be stopped immediately if my child develops aggression.',
+      d: 'We should monitor my child’s weight since weight gain is common.',
     },
     answer: {
       b: 'Methylphenidate is a stimulant, so other stimulants such as caffeine should be  avoided because a high plasma caffeine level can be fatal. The medication  should be taken in the morning. Patients should be taught not to stop the drug  abruptly to avoid withdrawal symptoms. Weight loss is common.',
@@ -1710,10 +1710,10 @@ export const Unit3 = [
     question:
       'The parent of a child who is taking amphetamine (Adderall) to treat attention-deficit/hyperactivity disorder (ADHD) asks the provider to recommend an over-the-counter medication to treat a cold. What will the nurse tell the parent?',
     choices: {
-      a: '#Avoid any products containing pseudoephedrine or caffeine.#',
-      b: '#Never give over-the-counter medications with Adderall.#',
-      c: '#Sudafed is a safe and effective decongestant.#',
-      d: '#Use any over-the-counter medication from the local pharmacy.#',
+      a: 'Avoid any products containing pseudoephedrine or caffeine.',
+      b: 'Never give over-the-counter medications with Adderall.',
+      c: 'Sudafed is a safe and effective decongestant.',
+      d: 'Use any over-the-counter medication from the local pharmacy.',
     },
     answer: {
       a: 'Adderall is a stimulant, so other stimulants, such as caffeine and  pseudoephedrine, should be avoided because a high plasma caffeine level can  be fatal.',
@@ -1749,10 +1749,10 @@ export const Unit3 = [
     question:
       'The nurse is teaching a parent about methylphenidate (Ritalin) to treat attention-deficit/hyperactivity disorder (ADHD). Which statement by the parent indicates understanding of the teaching?',
     choices: {
-      a: '#I should consult a pharmacist when giving my child OTC medications.#',
-      b: '#I will only give my child diet soft drinks while administering this medication.#',
-      c: '#Medication therapy means that behavioral therapy will not be necessary.#',
-      d: '#Weight gain is a common side effect of this medication.#',
+      a: 'I should consult a pharmacist when giving my child OTC medications.',
+      b: 'I will only give my child diet soft drinks while administering this medication.',
+      c: 'Medication therapy means that behavioral therapy will not be necessary.',
+      d: 'Weight gain is a common side effect of this medication.',
     },
     answer: {
       a: 'Since many OTC medications contain stimulants, parents should consult a  pharmacist or the provider before giving them with methylphenidate. Diet soft  drinks often contain caffeine, a stimulant, and should be avoided with  methylphenidate use. Behavioral therapy should still be an essential part of the  treatment for ADHD. Weight loss is common.',
@@ -1762,10 +1762,10 @@ export const Unit3 = [
     question:
       'The parent of an obese 10-year-old child asks the nurse about medications to aid in weight loss. Which response by the nurse is correct?',
     choices: {
-      a: '#Anorexiants are often used to ‘jump start’ a weight loss regimen in children.#',
-      b: '#Children are able to use over-the counter anorexiants on a long-term basis.#',
-      c: '#Children under 12 years of age should not use weight loss drugs.#',
-      d: '#Side effects of anorexiants occur less often in children.#',
+      a: 'Anorexiants are often used to ‘jump start’ a weight loss regimen in children.',
+      b: 'Children are able to use over-the counter anorexiants on a long-term basis.',
+      c: 'Children under 12 years of age should not use weight loss drugs.',
+      d: 'Side effects of anorexiants occur less often in children.',
     },
     answer: {
       c: 'Anorexiants should not be given to children under age 12 years.',
@@ -1799,10 +1799,10 @@ export const Unit3 = [
     question:
       'A patient reports difficulty falling asleep most nights and is constantly fatigued. The patient does not want to take medications to help with sleep. What non-pharmacologic measure will the nurse recommend?',
     choices: {
-      a: '#Exercise in the evening to promote bedtime fatigue.#',
-      b: '#Get out of bed at the same time each morning.#',
-      c: '#Have a glass of wine at bedtime to help you relax.#',
-      d: '#Take daytime naps to minimize daytime fatigue.#',
+      a: 'Exercise in the evening to promote bedtime fatigue.',
+      b: 'Get out of bed at the same time each morning.',
+      c: 'Have a glass of wine at bedtime to help you relax.',
+      d: 'Take daytime naps to minimize daytime fatigue.',
     },
     answer: {
       b: 'To promote sleep, patients should be advised to arise at the same time each  morning to establish a routine. Patients should avoid strenuous exercise before bedtime. Patients should not consume alcohol 6 hours before bedtime. Patients  should not take daytime naps.',
@@ -1825,10 +1825,10 @@ export const Unit3 = [
     question:
       'The nurse is providing teaching for a patient who will begin taking zolpidem tartrate (Ambien) 10 mg at bedtime as a sleep aid. Which statement by the patient indicates understanding of the teaching?',
     choices: {
-      a: '#I should take this medication with food to avoid stomach upset.#',
-      b: '#I will take this medication within 30 minutes of bedtime.#',
-      c: '#If this medication is not effective, I may increase the dose to 15 mg.#',
-      d: '#Tolerance and drug dependence do not occur with this medication.#',
+      a: 'I should take this medication with food to avoid stomach upset.',
+      b: 'I will take this medication within 30 minutes of bedtime.',
+      c: 'If this medication is not effective, I may increase the dose to 15 mg.',
+      d: 'Tolerance and drug dependence do not occur with this medication.',
     },
     answer: {
       b: 'Zolpidem is a non-benzodiazepine sleep aid. It should be taken 30 minutes  before desired sleep. Food decreases the absorption, so it should be taken on an  empty stomach. The maximum dose is 10 mg. Tolerance and dependence may  occur.',
@@ -1903,10 +1903,10 @@ export const Unit3 = [
     question:
       'A patient who has epilepsy will begin an anticonvulsant medication. The patient asks the nurse how long the medication will be necessary. How will the nurse respond?',
     choices: {
-      a: '#The medication is usually taken for a lifetime.#',
-      b: '#The medication will be given until you are seizure free.#',
-      c: '#You will need to take the medication for 3 to 5 years.#',
-      d: '#You will take the medication as needed for seizure activity.#',
+      a: 'The medication is usually taken for a lifetime.',
+      b: 'The medication will be given until you are seizure free.',
+      c: 'You will need to take the medication for 3 to 5 years.',
+      d: 'You will take the medication as needed for seizure activity.',
     },
     answer: {
       a: 'Anticonvulsants are given to prevent seizures and are usually taken throughout  the patient’s lifetime. Stopping the medication will lead to recurrence of seizures  in most patients. Some patients may attempt to stop taking the medications after  3 to 5 years of no seizure activity. Anticonvulsants are not given as needed.',
@@ -1916,10 +1916,10 @@ export const Unit3 = [
     question:
       'The nurse is providing teaching to the parents of a 5-year-old child who will begin taking phenytoin (Dilantin). What information will the nurse include when teaching these parents about their child’s medication?',
     choices: {
-      a: '#Drug interactions are uncommon with phenytoin.#',
-      b: '#There are very few side effects associated with this drug.#',
-      c: '#The therapeutic range of phenytoin is between 15 and 30 mcg/mL.#',
-      d: '#Your child may need a higher dose than expected.#',
+      a: 'Drug interactions are uncommon with phenytoin.',
+      b: 'There are very few side effects associated with this drug.',
+      c: 'The therapeutic range of phenytoin is between 15 and 30 mcg/mL.',
+      d: 'Your child may need a higher dose than expected.',
     },
     answer: {
       d: 'Drug dosage for phenytoin is age related, and children, who have a rapid  metabolism, may need higher doses than those used for newborns and adults.  Phenytoin has many drug interactions and many side effects. The therapeutic  range is 10 to 20 mcg/mL.',
@@ -2059,10 +2059,10 @@ export const Unit3 = [
     question:
       'A parent expresses concern that a 5-year-old child may develop epilepsy because the child experienced a febrile seizure at age 18 months. What will the nurse tell this parent?',
     choices: {
-      a: '#A child who has had a febrile seizure is considered to have epilepsy.#',
-      b: '#A small percentage of children who have febrile seizures develop epilepsy.#',
-      c: '#I recommend discussing prophylactic anticonvulsant drugs with the provider.#',
-      d: '#Treat fevers aggressively with aspirin and NSAIDs to prevent seizures.#',
+      a: 'A child who has had a febrile seizure is considered to have epilepsy.',
+      b: 'A small percentage of children who have febrile seizures develop epilepsy.',
+      c: 'I recommend discussing prophylactic anticonvulsant drugs with the provider.',
+      d: 'Treat fevers aggressively with aspirin and NSAIDs to prevent seizures.',
     },
     answer: {
       b: 'Epilepsy develops in 2.5% of children who have one or more febrile seizures.  One febrile seizure does not cause a diagnosis of epilepsy. Prophylactic  anticonvulsants are given to high-risk patients. Children should not receive  aspirin for fever because of the risk of Reye’s syndrome.',
@@ -2072,10 +2072,10 @@ export const Unit3 = [
     question:
       'A 25-year-old female patient will begin taking phenytoin for epilepsy. The patient tells the nurse she is taking oral contraceptives (OCPs). Which response will the nurse give?',
     choices: {
-      a: '#Continue taking OCPs because phenytoin is not safe during pregnancy.#',
-      b: '#You should use a backup method of contraception along with OCPs.#',
-      c: '#You should stop taking OCPs because of drug-drug interactions with phenytoin.#',
-      d: '#You should take low-dose aspirin while taking these medications to reduce your risk of stroke.#',
+      a: 'Continue taking OCPs because phenytoin is not safe during pregnancy.',
+      b: 'You should use a backup method of contraception along with OCPs.',
+      c: 'You should stop taking OCPs because of drug-drug interactions with phenytoin.',
+      d: 'You should take low-dose aspirin while taking these medications to reduce your risk of stroke.',
     },
     answer: {
       b: 'Female patients who take oral contraceptives and anticonvulsants should be  advised to use a backup method of contraception because of reduced  effectiveness of OCPs. Patients should be cautioned to consult with a provider if  considering pregnancy because of the teratogenic effects of anticonvulsants.  Patients should not stop taking OCPs and do not need to take precautions  against stroke.',
@@ -2085,10 +2085,10 @@ export const Unit3 = [
     question:
       'The nurse provides teaching for a patient who will begin taking phenytoin. Which statement by the patient indicates understanding of the teaching?',
     choices: {
-      a: '#If I develop a rash, I should take diphenhydramine to control the itching.#',
-      b: '#If I experience bleeding gums, I should stop taking the medication immediately.#',
-      c: '#I may develop diabetes while I am taking this medication.#',
-      d: '#I should not be alarmed if my urine turns reddish-brown.#',
+      a: 'If I develop a rash, I should take diphenhydramine to control the itching.',
+      b: 'If I experience bleeding gums, I should stop taking the medication immediately.',
+      c: 'I may develop diabetes while I am taking this medication.',
+      d: 'I should not be alarmed if my urine turns reddish-brown.',
     },
     answer: {
       d: 'Phenytoin will cause reddish-brown colored urine. Patients should be counseled  to report a rash to the provider because it could be a serious adverse reaction.  Bleeding gums are common, but patients should never stop taking  anticonvulsants abruptly, or they may develop seizures. Changes in blood  glucose may occur but do not necessarily result in diabetes.',
@@ -2150,10 +2150,10 @@ export const Unit3 = [
     question:
       'The nurse is teaching a patient who will be discharged home on a typical antipsychotic medication to treat schizophrenia. Which statement by the patient indicates a need for further teaching?',
     choices: {
-      a: '#I should not drink alcohol while taking this medication.#',
-      b: '#I should use a heating pad to treat muscle spasms while taking this medication.#',
-      c: '#I should use sunscreen while taking this medication.#',
-      d: '#I will need frequent blood tests while taking this medication.#',
+      a: 'I should not drink alcohol while taking this medication.',
+      b: 'I should use a heating pad to treat muscle spasms while taking this medication.',
+      c: 'I should use sunscreen while taking this medication.',
+      d: 'I will need frequent blood tests while taking this medication.',
     },
     answer: {
       b: 'Dystonia can cause muscle spasms and should be reported to the provider, who  can prescribe medications to treat this adverse effect. Patients should not drink  alcohol, should use sunscreen, and will need close monitoring of lab values while  taking these medications.',
@@ -2202,10 +2202,10 @@ export const Unit3 = [
     question:
       'The nurse is teaching a patient about taking an anxiolytic agent to treat grief-related anxiety. Which statement by the patient indicates understanding of the teaching?',
     choices: {
-      a: '#I may have wine with dinner to help with relaxation.#',
-      b: '#I may need to take this medication for up to a year.#',
-      c: '#I may stop taking the medication when my symptoms go away.#',
-      d: '#I should try psychotherapy or a support group in addition to the medication.#',
+      a: 'I may have wine with dinner to help with relaxation.',
+      b: 'I may need to take this medication for up to a year.',
+      c: 'I may stop taking the medication when my symptoms go away.',
+      d: 'I should try psychotherapy or a support group in addition to the medication.',
     },
     answer: {
       d: 'Psychotherapy or support groups should be part of therapy, with anxiolytics  added as needed. Patients taking anxiolytic medications should not consume  alcohol. Anxiolytic medications are generally given for a maximum of 3 to 4  months. Patients should not stop the medications abruptly.',
@@ -2215,10 +2215,10 @@ export const Unit3 = [
     question:
       'The nurse is teaching a patient who will begin taking doxepin (Sinequan) to treat depression. Which statement by the patient indicates a need for further teaching?',
     choices: {
-      a: '#I should expect results within 2 to 4 weeks.#',
-      b: '#I should increase fluids and fiber while taking this medication.#',
-      c: '#I should take care when rising from a sitting to standing position.#',
-      d: '#I will take the medication in the morning before breakfast.#',
+      a: 'I should expect results within 2 to 4 weeks.',
+      b: 'I should increase fluids and fiber while taking this medication.',
+      c: 'I should take care when rising from a sitting to standing position.',
+      d: 'I will take the medication in the morning before breakfast.',
     },
     answer: {
       d: 'Tricyclic antidepressants (TCAs) should begin to show effects within 1 to 4  weeks. Tricyclic antidepressants are known to cause orthostatic hypotension and  constipation, so patients should be counseled on how to minimize these effects.  TCAs should be taken at bedtime because of their tendency to cause  drowsiness.',
@@ -2345,10 +2345,10 @@ export const Unit3 = [
     question:
       'The nurse provides teaching for a patient who will begin taking lithium (Lithobid). Which statement by the patient indicates understanding of the teaching?',
     choices: {
-      a: '#I may drink tea or cola but not coffee.#',
-      b: '#I may stop taking the drug when mania symptoms subside.#',
-      c: '#I should consume a sodium-restricted diet.#',
-      d: '#I should drink 2 to 3 liters of fluid each day.#',
+      a: 'I may drink tea or cola but not coffee.',
+      b: 'I may stop taking the drug when mania symptoms subside.',
+      c: 'I should consume a sodium-restricted diet.',
+      d: 'I should drink 2 to 3 liters of fluid each day.',
     },
     answer: {
       d: 'Patients taking lithium should be encouraged to maintain adequate fluid intake of  2 to 3 L/day initially and then 1 to 2 L/day as maintenance. Patients should not  drink any caffeine-containing drinks, including tea and cola. Patients must  continue taking lithium even when symptoms subside, or else symptoms will  recur. It is not necessary to consume a sodium-restricted diet.',

@@ -58,9 +58,12 @@ export class ExploreContainerComponent implements OnInit {
     this.currentQuestion = this.getNewQuestion();
   }
 
-  checkAnswer() {
-    const choice = document.querySelector('ion-radio-group').value;
+  checkAnswer(): boolean {
+    const choice = document
+      .querySelector(`#${this.unit}`)
+      .querySelector('ion-radio-group').value;
     let isCorrect = false;
+
     if (this.currentQuestion.answer.hasOwnProperty(choice)) {
       this.correctQuestions.add(this.currentQuestion);
       this.grade = Math.floor(
@@ -79,7 +82,6 @@ export class ExploreContainerComponent implements OnInit {
 
   async checkAnswerPractice() {
     const correct = this.checkAnswer();
-    const choice = document.querySelector('ion-radio-group').value;
     const alert = await this.alertController.create({
       header: `${correct ? 'Correct! 🥳🎉' : 'Wrong 😕'}`,
       message: `${
@@ -109,6 +111,7 @@ export class ExploreContainerComponent implements OnInit {
     this.unit === 'all'
       ? (this.questions = [...Unit1, ...Unit2, ...Unit3])
       : (this.questions = [...this.unitMap[this.unit]]);
+
     this.currentQuestion = this.getNewQuestion();
   }
 }
